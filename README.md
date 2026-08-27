@@ -1,6 +1,7 @@
 # 沈黙する都市庭園 (Psychedelic Sonic City)
 
 Repo: https://github.com/Kazuyan38/psychedelic_sonic_city
+公開URL(GitHub Pages): https://kazuyan38.github.io/psychedelic_sonic_city/
 
 音が建築を生成し、沈黙が都市を崩す、疑似AR作品。自作MIDI(BPM144・約33秒)をイベント列に変換し、
 Web Audio(電子音全レイヤー: acid303風・デチューンスーパーソウ・サブベース・FM歪みベース・グリッチドラム)と、
@@ -10,10 +11,12 @@ Web Audio(電子音全レイヤー: acid303風・デチューンスーパーソ�
 
 ## 開くには
 
+**スマホでは上の公開URLを直接開けばよい**(GitHub PagesはHTTPS配信なのでカメラ許可が動く)。
+
 `index.html` は完全に単一ファイル完結(events.json はビルド時にインライン埋め込み済み)。
-ただしカメラ(`getUserMedia`)は **HTTPS または localhost でしか動かない**ブラウザ仕様のため、
-`file://` で直接ダブルクリックしても背景カメラは使えず(暗紫グラデーションにフォールバックはする)、
-本来の体験には簡易サーバ越しでのアクセスを推奨する。
+カメラ(`getUserMedia`)は **HTTPS または localhost でしか動かない**ブラウザ仕様のため、
+`file://` で直接ダブルクリックしても背景カメラは使えない(暗紫グラデーションにフォールバックはする)。
+ローカルで確認する場合は簡易サーバ越しにする。
 
 ```
 cd C:\Users\gener\psychedelic_sonic_city
