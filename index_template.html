@@ -41,10 +41,6 @@ button:active{filter:brightness(.85);}
   background:linear-gradient(180deg,transparent,#05000acc 40%);}
 #bar button{flex:0 0 auto;margin:0;padding:10px 14px;font-size:.8rem;}
 #bar input[type=range]{flex:1;height:28px;accent-color:var(--accent2);}
-#hint{position:fixed;top:max(14px,env(safe-area-inset-top));left:0;right:0;z-index:15;
-  text-align:center;font-size:.78rem;color:#e6d9ffcc;pointer-events:none;
-  text-shadow:0 0 8px #000;transition:opacity .8s ease;}
-#hint.hidden{opacity:0;}
 #endcard h2{font-size:1.2rem;color:#f2eaff;margin-bottom:6px;}
 </style>
 </head>
@@ -55,8 +51,6 @@ button:active{filter:brightness(.85);}
   <canvas id="glitchCanvas"></canvas>
 </div>
 
-<div id="hint">床やテーブルにカメラを向けて、画面をタップすると都市の種が育ちます</div>
-
 <div id="bar" style="display:none;">
   <button id="btnReset">✕ 消去</button>
   <input id="volSlider" type="range" min="0" max="100" value="70">
@@ -65,7 +59,7 @@ button:active{filter:brightness(.85);}
 
 <div class="overlay" id="startOverlay">
   <h1>沈黙する都市庭園</h1>
-  <p>音を置くと、現実の上に都市が育ちます。<br>都市は音楽とともに増殖し、色を氾濫させ、そして沈黙とともに崩れます。</p>
+  <p>タップすると、その場で音楽が流れ始め、現実の上に都市が育ちます。<br>3分間、都市は音楽とともに増殖し、色を氾濫させ、そして沈黙とともに崩れます。</p>
   <p style="font-size:.75rem;color:#9a86c2;">音が止まったとき、都市は死ぬのか、それとも別の夢を見始めるのか。</p>
   <div class="warn">強い発光・色彩の点滅・電子音を含みます。光過敏の方、体調が優れない方はご注意ください。歩行中の使用は避け、安全な場所でご利用ください。</div>
   <div class="opt"><input type="checkbox" id="lowStimChk"><label for="lowStimChk">低刺激モードで開始する(点滅・グリッチを抑制)</label></div>
@@ -87,15 +81,19 @@ const SCORE = /*__EVENTS_JSON__*/;
 
 /* ===== 1. 定数/安全設定 ===== */
 const BPM = SCORE.bpm, BAR_SEC = 4*60/BPM;
+// 108小節・180秒の物語構造。compose/compose_loop.py の SECTIONS と対応。
 const STATE_TIMELINE = [
-  {t0:0*BAR_SEC,  t1:2*BAR_SEC,  state:"dormant"},
-  {t0:2*BAR_SEC,  t1:6*BAR_SEC,  state:"growth"},
-  {t0:6*BAR_SEC,  t1:12*BAR_SEC, state:"peak"},
-  {t0:12*BAR_SEC, t1:14*BAR_SEC, state:"silence"},
-  {t0:14*BAR_SEC, t1:16*BAR_SEC, state:"restart"},
-  {t0:16*BAR_SEC, t1:99,         state:"collapse"},
+  {t0:0*BAR_SEC,   t1:4*BAR_SEC,   state:"dormant",  spread:0.14},
+  {t0:4*BAR_SEC,   t1:16*BAR_SEC,  state:"growth",   spread:0.45},
+  {t0:16*BAR_SEC,  t1:40*BAR_SEC,  state:"peak",     spread:0.85},
+  {t0:40*BAR_SEC,  t1:44*BAR_SEC,  state:"silence",  spread:0.2},
+  {t0:44*BAR_SEC,  t1:52*BAR_SEC,  state:"restart",  spread:0.5},
+  {t0:52*BAR_SEC,  t1:84*BAR_SEC,  state:"peak",     spread:1.15},
+  {t0:84*BAR_SEC,  t1:90*BAR_SEC,  state:"silence",  spread:0.22},
+  {t0:90*BAR_SEC,  t1:104*BAR_SEC, state:"collapse", spread:0.6},
+  {t0:104*BAR_SEC, t1:999,         state:"collapse", spread:0.15},
 ];
-const MAX_TOWERS = 30, MAX_PARTICLES = 160;
+const MAX_TOWERS = 42, MAX_PARTICLES = 200;
 const FLASH_MIN_INTERVAL_MS = 260; // 光過敏対策: 強フラッシュの最小間隔
 let lowStim = false;
 
@@ -274,7 +272,7 @@ function playDrum(name, vel, t){
 /* ===== 6. 都市の状態(オブジェクトプール) ===== */
 const towers=[]; // {angle,radius,h,hue,sat,life,born}
 const particles=[]; // {x,y,vx,vy,life,hue,size}
-let cityHue=280, desat=0, kaleidoAngle=0, energy=0;
+let cityHue=280, desat=0, kaleidoAngle=0, energy=0, spread=0.14;
 let lastFlashAt=-9999;
 let goldenIdx=0; const GOLDEN=137.50776;
 
@@ -352,9 +350,11 @@ function schedulerTick(){
   if(playing) setTimeout(schedulerTick, 25);
 }
 function updateState(elapsed){
+  let targetSpread=spread;
   for(const s of STATE_TIMELINE){
-    if(elapsed>=s.t0 && elapsed<s.t1){ curState=s.state; break; }
+    if(elapsed>=s.t0 && elapsed<s.t1){ curState=s.state; targetSpread=s.spread; break; }
   }
+  spread += (targetSpread-spread)*0.02;
   if(curState==="silence") desat += (1-desat)*0.06;
   else if(curState==="dormant") desat = 1;
   else desat += (0-desat)*0.04;
@@ -373,7 +373,7 @@ function draw(){
   kaleidoAngle += 0.06 + energy*0.4;
   const folds = 8;
   const sat = Math.max(0, 1-desat);
-  const scale = Math.min(w,h)*0.42;
+  const scale = Math.max(w,h)*0.5*spread + energy*Math.min(w,h)*0.12;
 
   for(let f=0; f<folds; f++){
     fxCtx.save();
@@ -431,16 +431,14 @@ function draw(){
 /* ===== 10. UI配線 ===== */
 function showEnd(){
   $("bar").style.display="none";
-  $("hint").classList.add("hidden");
   const eo=$("endOverlay"); eo.style.display="flex"; requestAnimationFrame(()=>eo.classList.remove("hidden"));
 }
 function reset(){
   towers.length=0; particles.length=0; energy=0; desat=1; evPtr=0; done=false; playing=false;
-  goldenIdx=0; cityHue=280;
+  goldenIdx=0; cityHue=280; spread=0.14;
   $("endOverlay").classList.add("hidden");
   setTimeout(()=>{$("endOverlay").style.display="none";},650);
   $("bar").style.display="flex";
-  $("hint").classList.remove("hidden");
 }
 async function begin(){
   lowStim = $("lowStimChk").checked;
@@ -453,6 +451,7 @@ async function begin(){
   $("bar").style.display="flex";
   desat = 1;
   requestAnimationFrame(draw);
+  startPlayback(); // このタップ一回で音楽と映像が同時に始まる
 }
 $("btnStart").addEventListener("click", begin);
 $("btnRestart").addEventListener("click", ()=>{ reset(); startPlayback(); });
@@ -467,9 +466,7 @@ function startPlayback(){
   schedulerTick();
 }
 document.getElementById("stage").addEventListener("pointerdown", ()=>{
-  if(!actx) return;
-  if(!playing && !done){ $("hint").classList.add("hidden"); startPlayback(); }
-  else if(playing){ spawnParticle(cityHue+90,true); bigFlash(); }
+  if(playing){ spawnParticle(cityHue+90,true); bigFlash(); } // 再生中の追加タップは彩り程度の演出
 });
 </script>
 </body>
