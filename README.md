@@ -1,5 +1,7 @@
 # 沈黙する都市庭園 (Psychedelic Sonic City)
 
+Repo: https://github.com/Kazuyan38/psychedelic_sonic_city
+
 音が建築を生成し、沈黙が都市を崩す、疑似AR作品。自作MIDI(BPM144・約33秒)をイベント列に変換し、
 Web Audio(電子音全レイヤー: acid303風・デチューンスーパーソウ・サブベース・FM歪みベース・グリッチドラム)と、
 カメラ映像+Canvas2D万華鏡演出で同時駆動する。
