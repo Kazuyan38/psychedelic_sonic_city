@@ -1,0 +1,8503 @@
+{
+ "bpm": 144,
+ "duration": 33.484,
+ "role_map": {
+  "acid": "melody -> 建築の輪郭/高さ, 蛇行する道",
+  "pad": "harmony -> 色相/材質/背景グラデーション",
+  "sub": "低域 -> 地面の揺れ/地下構造",
+  "fm": "歪み -> 金属建築/裂け目/グリッチ演出",
+  "drum": "リズム -> 増殖周期/点滅/粒子",
+  "silence": "沈黙 -> 彩度低下/停止/崩壊"
+ },
+ "events": [
+  {
+   "t": 0.8333,
+   "type": "sub",
+   "channel": 2,
+   "note": 45,
+   "velocity": 80
+  },
+  {
+   "t": 0.8333,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 0.8333,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 79,
+   "drum": "chh"
+  },
+  {
+   "t": 0.8837,
+   "type": "note_off",
+   "channel": 9,
+   "note": 36
+  },
+  {
+   "t": 0.9062,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 0.9375,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 62,
+   "drum": "chh"
+  },
+  {
+   "t": 1.0104,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 1.0417,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 53,
+   "drum": "chh"
+  },
+  {
+   "t": 1.1146,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 1.1458,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 45,
+   "drum": "chh"
+  },
+  {
+   "t": 1.2187,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 1.25,
+   "type": "sub",
+   "channel": 2,
+   "note": 45,
+   "velocity": 80
+  },
+  {
+   "t": 1.25,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 1.25,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 66,
+   "drum": "chh"
+  },
+  {
+   "t": 1.25,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 1.25,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 63,
+   "drum": "chh"
+  },
+  {
+   "t": 1.3003,
+   "type": "note_off",
+   "channel": 9,
+   "note": 38
+  },
+  {
+   "t": 1.3003,
+   "type": "note_off",
+   "channel": 9,
+   "note": 36
+  },
+  {
+   "t": 1.3229,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 1.3542,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 65,
+   "drum": "chh"
+  },
+  {
+   "t": 1.3542,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 51,
+   "drum": "chh"
+  },
+  {
+   "t": 1.4271,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 1.4583,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 47,
+   "drum": "chh"
+  },
+  {
+   "t": 1.4583,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 63,
+   "drum": "chh"
+  },
+  {
+   "t": 1.5312,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 1.5625,
+   "type": "drum",
+   "channel": 9,
+   "note": 46,
+   "velocity": 63,
+   "drum": "ohh"
+  },
+  {
+   "t": 1.5625,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 55,
+   "drum": "chh"
+  },
+  {
+   "t": 1.6354,
+   "type": "note_off",
+   "channel": 9,
+   "note": 46
+  },
+  {
+   "t": 1.6354,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 1.6667,
+   "type": "sub",
+   "channel": 2,
+   "note": 45,
+   "velocity": 80
+  },
+  {
+   "t": 1.6667,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 1.6667,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 69,
+   "drum": "chh"
+  },
+  {
+   "t": 1.6667,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 1.6667,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 71,
+   "drum": "chh"
+  },
+  {
+   "t": 1.6667,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 1.6667,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 62,
+   "drum": "chh"
+  },
+  {
+   "t": 1.717,
+   "type": "note_off",
+   "channel": 9,
+   "note": 36
+  },
+  {
+   "t": 1.717,
+   "type": "note_off",
+   "channel": 9,
+   "note": 38
+  },
+  {
+   "t": 1.7396,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 1.7708,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 47,
+   "drum": "chh"
+  },
+  {
+   "t": 1.7708,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 51,
+   "drum": "chh"
+  },
+  {
+   "t": 1.7708,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 59,
+   "drum": "chh"
+  },
+  {
+   "t": 1.8437,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 1.875,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 52,
+   "drum": "chh"
+  },
+  {
+   "t": 1.875,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 51,
+   "drum": "chh"
+  },
+  {
+   "t": 1.875,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 58,
+   "drum": "chh"
+  },
+  {
+   "t": 1.9479,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 1.9792,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 45,
+   "drum": "chh"
+  },
+  {
+   "t": 1.9792,
+   "type": "drum",
+   "channel": 9,
+   "note": 46,
+   "velocity": 65,
+   "drum": "ohh"
+  },
+  {
+   "t": 1.9792,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 59,
+   "drum": "chh"
+  },
+  {
+   "t": 2.0521,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 2.0521,
+   "type": "note_off",
+   "channel": 9,
+   "note": 46
+  },
+  {
+   "t": 2.0833,
+   "type": "sub",
+   "channel": 2,
+   "note": 45,
+   "velocity": 80
+  },
+  {
+   "t": 2.0833,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 2.0833,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 73,
+   "drum": "chh"
+  },
+  {
+   "t": 2.0833,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 2.0833,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 69,
+   "drum": "chh"
+  },
+  {
+   "t": 2.0833,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 2.0833,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 68,
+   "drum": "chh"
+  },
+  {
+   "t": 2.0833,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 2.0833,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 67,
+   "drum": "chh"
+  },
+  {
+   "t": 2.1337,
+   "type": "note_off",
+   "channel": 9,
+   "note": 38
+  },
+  {
+   "t": 2.1337,
+   "type": "note_off",
+   "channel": 9,
+   "note": 36
+  },
+  {
+   "t": 2.1562,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 2.1875,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 64,
+   "drum": "chh"
+  },
+  {
+   "t": 2.1875,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 61,
+   "drum": "chh"
+  },
+  {
+   "t": 2.1875,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 62,
+   "drum": "chh"
+  },
+  {
+   "t": 2.1875,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 53,
+   "drum": "chh"
+  },
+  {
+   "t": 2.2604,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 2.2917,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 53,
+   "drum": "chh"
+  },
+  {
+   "t": 2.2917,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 55,
+   "drum": "chh"
+  },
+  {
+   "t": 2.2917,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 58,
+   "drum": "chh"
+  },
+  {
+   "t": 2.2917,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 64,
+   "drum": "chh"
+  },
+  {
+   "t": 2.3646,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 2.3958,
+   "type": "drum",
+   "channel": 9,
+   "note": 46,
+   "velocity": 59,
+   "drum": "ohh"
+  },
+  {
+   "t": 2.3958,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 51,
+   "drum": "chh"
+  },
+  {
+   "t": 2.3958,
+   "type": "drum",
+   "channel": 9,
+   "note": 46,
+   "velocity": 61,
+   "drum": "ohh"
+  },
+  {
+   "t": 2.3958,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 53,
+   "drum": "chh"
+  },
+  {
+   "t": 2.4583,
+   "type": "note_off",
+   "channel": 2,
+   "note": 45
+  },
+  {
+   "t": 2.4687,
+   "type": "note_off",
+   "channel": 9,
+   "note": 46
+  },
+  {
+   "t": 2.4687,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 2.5,
+   "type": "pad",
+   "channel": 1,
+   "note": 69,
+   "velocity": 66
+  },
+  {
+   "t": 2.5,
+   "type": "pad",
+   "channel": 1,
+   "note": 72,
+   "velocity": 63
+  },
+  {
+   "t": 2.5,
+   "type": "pad",
+   "channel": 1,
+   "note": 76,
+   "velocity": 60
+  },
+  {
+   "t": 2.5,
+   "type": "pad",
+   "channel": 1,
+   "note": 79,
+   "velocity": 59
+  },
+  {
+   "t": 2.5,
+   "type": "pad",
+   "channel": 4,
+   "note": 69,
+   "velocity": 61
+  },
+  {
+   "t": 2.5,
+   "type": "pad",
+   "channel": 4,
+   "note": 72,
+   "velocity": 64
+  },
+  {
+   "t": 2.5,
+   "type": "pad",
+   "channel": 4,
+   "note": 76,
+   "velocity": 63
+  },
+  {
+   "t": 2.5,
+   "type": "pad",
+   "channel": 4,
+   "note": 79,
+   "velocity": 65
+  },
+  {
+   "t": 2.5,
+   "type": "pad",
+   "channel": 5,
+   "note": 69,
+   "velocity": 58
+  },
+  {
+   "t": 2.5,
+   "type": "pad",
+   "channel": 5,
+   "note": 72,
+   "velocity": 60
+  },
+  {
+   "t": 2.5,
+   "type": "pad",
+   "channel": 5,
+   "note": 76,
+   "velocity": 64
+  },
+  {
+   "t": 2.5,
+   "type": "pad",
+   "channel": 5,
+   "note": 79,
+   "velocity": 60
+  },
+  {
+   "t": 2.5,
+   "type": "sub",
+   "channel": 2,
+   "note": 45,
+   "velocity": 100
+  },
+  {
+   "t": 2.5,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 2.5,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 71,
+   "drum": "chh"
+  },
+  {
+   "t": 2.5,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 2.5,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 67,
+   "drum": "chh"
+  },
+  {
+   "t": 2.5,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 2.5,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 60,
+   "drum": "chh"
+  },
+  {
+   "t": 2.5,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 2.5,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 71,
+   "drum": "chh"
+  },
+  {
+   "t": 2.5,
+   "type": "drum",
+   "channel": 9,
+   "note": 49,
+   "velocity": 110,
+   "drum": "crash"
+  },
+  {
+   "t": 2.5503,
+   "type": "note_off",
+   "channel": 9,
+   "note": 38
+  },
+  {
+   "t": 2.5503,
+   "type": "note_off",
+   "channel": 9,
+   "note": 36
+  },
+  {
+   "t": 2.5729,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 2.6042,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 64,
+   "drum": "chh"
+  },
+  {
+   "t": 2.6042,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 65,
+   "drum": "chh"
+  },
+  {
+   "t": 2.6042,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 54,
+   "drum": "chh"
+  },
+  {
+   "t": 2.6042,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 62,
+   "drum": "chh"
+  },
+  {
+   "t": 2.6771,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 2.7083,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 54,
+   "drum": "chh"
+  },
+  {
+   "t": 2.7083,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 50,
+   "drum": "chh"
+  },
+  {
+   "t": 2.7083,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 53,
+   "drum": "chh"
+  },
+  {
+   "t": 2.7083,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 64,
+   "drum": "chh"
+  },
+  {
+   "t": 2.7812,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 2.8125,
+   "type": "drum",
+   "channel": 9,
+   "note": 46,
+   "velocity": 62,
+   "drum": "ohh"
+  },
+  {
+   "t": 2.8125,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 47,
+   "drum": "chh"
+  },
+  {
+   "t": 2.8125,
+   "type": "drum",
+   "channel": 9,
+   "note": 46,
+   "velocity": 54,
+   "drum": "ohh"
+  },
+  {
+   "t": 2.8125,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 48,
+   "drum": "chh"
+  },
+  {
+   "t": 2.875,
+   "type": "note_off",
+   "channel": 2,
+   "note": 45
+  },
+  {
+   "t": 2.8854,
+   "type": "note_off",
+   "channel": 9,
+   "note": 46
+  },
+  {
+   "t": 2.8854,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 2.9167,
+   "type": "sub",
+   "channel": 2,
+   "note": 45,
+   "velocity": 100
+  },
+  {
+   "t": 2.9167,
+   "type": "fm",
+   "channel": 3,
+   "note": 45,
+   "velocity": 109
+  },
+  {
+   "t": 2.9167,
+   "type": "note_off",
+   "channel": 9,
+   "note": 49
+  },
+  {
+   "t": 2.9167,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 2.9167,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 78,
+   "drum": "chh"
+  },
+  {
+   "t": 2.9167,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 2.9167,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 68,
+   "drum": "chh"
+  },
+  {
+   "t": 2.9167,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 2.9167,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 2.9167,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 69,
+   "drum": "chh"
+  },
+  {
+   "t": 2.9167,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 2.9167,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 78,
+   "drum": "chh"
+  },
+  {
+   "t": 2.967,
+   "type": "note_off",
+   "channel": 9,
+   "note": 38
+  },
+  {
+   "t": 2.967,
+   "type": "note_off",
+   "channel": 9,
+   "note": 36
+  },
+  {
+   "t": 2.9896,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 3.0208,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 48,
+   "drum": "chh"
+  },
+  {
+   "t": 3.0208,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 50,
+   "drum": "chh"
+  },
+  {
+   "t": 3.0208,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 46,
+   "drum": "chh"
+  },
+  {
+   "t": 3.0208,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 54,
+   "drum": "chh"
+  },
+  {
+   "t": 3.0833,
+   "type": "note_off",
+   "channel": 3,
+   "note": 45
+  },
+  {
+   "t": 3.0937,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 3.125,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 52,
+   "drum": "chh"
+  },
+  {
+   "t": 3.125,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 53,
+   "drum": "chh"
+  },
+  {
+   "t": 3.125,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 50,
+   "drum": "chh"
+  },
+  {
+   "t": 3.125,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 51,
+   "drum": "chh"
+  },
+  {
+   "t": 3.1979,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 3.2292,
+   "type": "drum",
+   "channel": 9,
+   "note": 46,
+   "velocity": 54,
+   "drum": "ohh"
+  },
+  {
+   "t": 3.2292,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 57,
+   "drum": "chh"
+  },
+  {
+   "t": 3.2292,
+   "type": "drum",
+   "channel": 9,
+   "note": 46,
+   "velocity": 58,
+   "drum": "ohh"
+  },
+  {
+   "t": 3.2292,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 53,
+   "drum": "chh"
+  },
+  {
+   "t": 3.2917,
+   "type": "note_off",
+   "channel": 2,
+   "note": 45
+  },
+  {
+   "t": 3.3021,
+   "type": "note_off",
+   "channel": 9,
+   "note": 46
+  },
+  {
+   "t": 3.3021,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 3.3333,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 98
+  },
+  {
+   "t": 3.3333,
+   "type": "pad",
+   "channel": 1,
+   "note": 74,
+   "velocity": 61
+  },
+  {
+   "t": 3.3333,
+   "type": "pad",
+   "channel": 1,
+   "note": 77,
+   "velocity": 59
+  },
+  {
+   "t": 3.3333,
+   "type": "pad",
+   "channel": 1,
+   "note": 81,
+   "velocity": 58
+  },
+  {
+   "t": 3.3333,
+   "type": "pad",
+   "channel": 1,
+   "note": 84,
+   "velocity": 65
+  },
+  {
+   "t": 3.3333,
+   "type": "pad",
+   "channel": 4,
+   "note": 74,
+   "velocity": 58
+  },
+  {
+   "t": 3.3333,
+   "type": "pad",
+   "channel": 4,
+   "note": 77,
+   "velocity": 64
+  },
+  {
+   "t": 3.3333,
+   "type": "pad",
+   "channel": 4,
+   "note": 81,
+   "velocity": 64
+  },
+  {
+   "t": 3.3333,
+   "type": "pad",
+   "channel": 4,
+   "note": 84,
+   "velocity": 59
+  },
+  {
+   "t": 3.3333,
+   "type": "pad",
+   "channel": 5,
+   "note": 74,
+   "velocity": 62
+  },
+  {
+   "t": 3.3333,
+   "type": "pad",
+   "channel": 5,
+   "note": 77,
+   "velocity": 64
+  },
+  {
+   "t": 3.3333,
+   "type": "pad",
+   "channel": 5,
+   "note": 81,
+   "velocity": 63
+  },
+  {
+   "t": 3.3333,
+   "type": "pad",
+   "channel": 5,
+   "note": 84,
+   "velocity": 58
+  },
+  {
+   "t": 3.3333,
+   "type": "sub",
+   "channel": 2,
+   "note": 45,
+   "velocity": 100
+  },
+  {
+   "t": 3.3333,
+   "type": "fm",
+   "channel": 3,
+   "note": 53,
+   "velocity": 108
+  },
+  {
+   "t": 3.3333,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 3.3333,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 67,
+   "drum": "chh"
+  },
+  {
+   "t": 3.3333,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 3.3333,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 75,
+   "drum": "chh"
+  },
+  {
+   "t": 3.3333,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 3.3333,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 3.3333,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 72,
+   "drum": "chh"
+  },
+  {
+   "t": 3.3333,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 3.3333,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 74,
+   "drum": "chh"
+  },
+  {
+   "t": 3.3837,
+   "type": "note_off",
+   "channel": 9,
+   "note": 38
+  },
+  {
+   "t": 3.3837,
+   "type": "note_off",
+   "channel": 9,
+   "note": 36
+  },
+  {
+   "t": 3.4062,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 3.4219,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 3.4375,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 84
+  },
+  {
+   "t": 3.4375,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 54,
+   "drum": "chh"
+  },
+  {
+   "t": 3.4375,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 61,
+   "drum": "chh"
+  },
+  {
+   "t": 3.4375,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 48,
+   "drum": "chh"
+  },
+  {
+   "t": 3.4375,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 64,
+   "drum": "chh"
+  },
+  {
+   "t": 3.5,
+   "type": "note_off",
+   "channel": 3,
+   "note": 53
+  },
+  {
+   "t": 3.5104,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 3.526,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 3.5417,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 77
+  },
+  {
+   "t": 3.5417,
+   "type": "fm",
+   "channel": 3,
+   "note": 53,
+   "velocity": 112
+  },
+  {
+   "t": 3.5417,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 51,
+   "drum": "chh"
+  },
+  {
+   "t": 3.5417,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 53,
+   "drum": "chh"
+  },
+  {
+   "t": 3.5417,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 49,
+   "drum": "chh"
+  },
+  {
+   "t": 3.5417,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 47,
+   "drum": "chh"
+  },
+  {
+   "t": 3.6146,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 3.6302,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 3.6458,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 85
+  },
+  {
+   "t": 3.6458,
+   "type": "drum",
+   "channel": 9,
+   "note": 46,
+   "velocity": 53,
+   "drum": "ohh"
+  },
+  {
+   "t": 3.6458,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 57,
+   "drum": "chh"
+  },
+  {
+   "t": 3.6458,
+   "type": "drum",
+   "channel": 9,
+   "note": 46,
+   "velocity": 46,
+   "drum": "ohh"
+  },
+  {
+   "t": 3.6458,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 60,
+   "drum": "chh"
+  },
+  {
+   "t": 3.7083,
+   "type": "note_off",
+   "channel": 2,
+   "note": 45
+  },
+  {
+   "t": 3.7083,
+   "type": "note_off",
+   "channel": 3,
+   "note": 53
+  },
+  {
+   "t": 3.7187,
+   "type": "note_off",
+   "channel": 9,
+   "note": 46
+  },
+  {
+   "t": 3.7187,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 3.7344,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 3.75,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 99
+  },
+  {
+   "t": 3.75,
+   "type": "sub",
+   "channel": 2,
+   "note": 45,
+   "velocity": 100
+  },
+  {
+   "t": 3.75,
+   "type": "fm",
+   "channel": 3,
+   "note": 45,
+   "velocity": 105
+  },
+  {
+   "t": 3.75,
+   "type": "fm",
+   "channel": 3,
+   "note": 45,
+   "velocity": 106
+  },
+  {
+   "t": 3.75,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 3.75,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 3.75,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 67,
+   "drum": "chh"
+  },
+  {
+   "t": 3.75,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 3.75,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 77,
+   "drum": "chh"
+  },
+  {
+   "t": 3.75,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 3.75,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 3.75,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 66,
+   "drum": "chh"
+  },
+  {
+   "t": 3.75,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 3.75,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 62,
+   "drum": "chh"
+  },
+  {
+   "t": 3.8003,
+   "type": "note_off",
+   "channel": 9,
+   "note": 36
+  },
+  {
+   "t": 3.8003,
+   "type": "note_off",
+   "channel": 9,
+   "note": 38
+  },
+  {
+   "t": 3.8229,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 3.8385,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 3.8542,
+   "type": "acid",
+   "channel": 0,
+   "note": 81,
+   "velocity": 73
+  },
+  {
+   "t": 3.8542,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 56,
+   "drum": "chh"
+  },
+  {
+   "t": 3.8542,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 64,
+   "drum": "chh"
+  },
+  {
+   "t": 3.8542,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 45,
+   "drum": "chh"
+  },
+  {
+   "t": 3.8542,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 56,
+   "drum": "chh"
+  },
+  {
+   "t": 3.9167,
+   "type": "note_off",
+   "channel": 3,
+   "note": 45
+  },
+  {
+   "t": 3.9271,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 3.9427,
+   "type": "note_off",
+   "channel": 0,
+   "note": 81
+  },
+  {
+   "t": 3.9583,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 72
+  },
+  {
+   "t": 3.9583,
+   "type": "fm",
+   "channel": 3,
+   "note": 53,
+   "velocity": 105
+  },
+  {
+   "t": 3.9583,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 60,
+   "drum": "chh"
+  },
+  {
+   "t": 3.9583,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 45,
+   "drum": "chh"
+  },
+  {
+   "t": 3.9583,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 60,
+   "drum": "chh"
+  },
+  {
+   "t": 3.9583,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 64,
+   "drum": "chh"
+  },
+  {
+   "t": 4.0312,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 4.0469,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 4.0625,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 76
+  },
+  {
+   "t": 4.0625,
+   "type": "drum",
+   "channel": 9,
+   "note": 46,
+   "velocity": 52,
+   "drum": "ohh"
+  },
+  {
+   "t": 4.0625,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 58,
+   "drum": "chh"
+  },
+  {
+   "t": 4.0625,
+   "type": "drum",
+   "channel": 9,
+   "note": 46,
+   "velocity": 52,
+   "drum": "ohh"
+  },
+  {
+   "t": 4.0625,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 59,
+   "drum": "chh"
+  },
+  {
+   "t": 4.125,
+   "type": "note_off",
+   "channel": 2,
+   "note": 45
+  },
+  {
+   "t": 4.125,
+   "type": "note_off",
+   "channel": 3,
+   "note": 53
+  },
+  {
+   "t": 4.1337,
+   "type": "note_off",
+   "channel": 1,
+   "note": 69
+  },
+  {
+   "t": 4.1337,
+   "type": "note_off",
+   "channel": 1,
+   "note": 72
+  },
+  {
+   "t": 4.1337,
+   "type": "note_off",
+   "channel": 1,
+   "note": 76
+  },
+  {
+   "t": 4.1337,
+   "type": "note_off",
+   "channel": 1,
+   "note": 79
+  },
+  {
+   "t": 4.1337,
+   "type": "note_off",
+   "channel": 4,
+   "note": 69
+  },
+  {
+   "t": 4.1337,
+   "type": "note_off",
+   "channel": 4,
+   "note": 72
+  },
+  {
+   "t": 4.1337,
+   "type": "note_off",
+   "channel": 4,
+   "note": 76
+  },
+  {
+   "t": 4.1337,
+   "type": "note_off",
+   "channel": 4,
+   "note": 79
+  },
+  {
+   "t": 4.1337,
+   "type": "note_off",
+   "channel": 5,
+   "note": 69
+  },
+  {
+   "t": 4.1337,
+   "type": "note_off",
+   "channel": 5,
+   "note": 72
+  },
+  {
+   "t": 4.1337,
+   "type": "note_off",
+   "channel": 5,
+   "note": 76
+  },
+  {
+   "t": 4.1337,
+   "type": "note_off",
+   "channel": 5,
+   "note": 79
+  },
+  {
+   "t": 4.1354,
+   "type": "note_off",
+   "channel": 9,
+   "note": 46
+  },
+  {
+   "t": 4.1354,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 4.151,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 4.1667,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 91
+  },
+  {
+   "t": 4.1667,
+   "type": "pad",
+   "channel": 1,
+   "note": 70,
+   "velocity": 60
+  },
+  {
+   "t": 4.1667,
+   "type": "pad",
+   "channel": 1,
+   "note": 74,
+   "velocity": 63
+  },
+  {
+   "t": 4.1667,
+   "type": "pad",
+   "channel": 1,
+   "note": 77,
+   "velocity": 61
+  },
+  {
+   "t": 4.1667,
+   "type": "pad",
+   "channel": 1,
+   "note": 81,
+   "velocity": 66
+  },
+  {
+   "t": 4.1667,
+   "type": "pad",
+   "channel": 4,
+   "note": 70,
+   "velocity": 64
+  },
+  {
+   "t": 4.1667,
+   "type": "pad",
+   "channel": 4,
+   "note": 74,
+   "velocity": 61
+  },
+  {
+   "t": 4.1667,
+   "type": "pad",
+   "channel": 4,
+   "note": 77,
+   "velocity": 61
+  },
+  {
+   "t": 4.1667,
+   "type": "pad",
+   "channel": 4,
+   "note": 81,
+   "velocity": 65
+  },
+  {
+   "t": 4.1667,
+   "type": "pad",
+   "channel": 5,
+   "note": 70,
+   "velocity": 66
+  },
+  {
+   "t": 4.1667,
+   "type": "pad",
+   "channel": 5,
+   "note": 74,
+   "velocity": 64
+  },
+  {
+   "t": 4.1667,
+   "type": "pad",
+   "channel": 5,
+   "note": 77,
+   "velocity": 59
+  },
+  {
+   "t": 4.1667,
+   "type": "pad",
+   "channel": 5,
+   "note": 81,
+   "velocity": 65
+  },
+  {
+   "t": 4.1667,
+   "type": "sub",
+   "channel": 2,
+   "note": 45,
+   "velocity": 100
+  },
+  {
+   "t": 4.1667,
+   "type": "fm",
+   "channel": 3,
+   "note": 45,
+   "velocity": 111
+  },
+  {
+   "t": 4.1667,
+   "type": "fm",
+   "channel": 3,
+   "note": 53,
+   "velocity": 106
+  },
+  {
+   "t": 4.1667,
+   "type": "fm",
+   "channel": 3,
+   "note": 50,
+   "velocity": 99
+  },
+  {
+   "t": 4.1667,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 4.1667,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 4.1667,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 70,
+   "drum": "chh"
+  },
+  {
+   "t": 4.1667,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 4.1667,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 74,
+   "drum": "chh"
+  },
+  {
+   "t": 4.1667,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 4.1667,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 4.1667,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 61,
+   "drum": "chh"
+  },
+  {
+   "t": 4.1667,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 4.1667,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 65,
+   "drum": "chh"
+  },
+  {
+   "t": 4.2031,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 4.217,
+   "type": "note_off",
+   "channel": 9,
+   "note": 36
+  },
+  {
+   "t": 4.217,
+   "type": "note_off",
+   "channel": 9,
+   "note": 38
+  },
+  {
+   "t": 4.2187,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 47,
+   "drum": "chh"
+  },
+  {
+   "t": 4.2396,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 4.2552,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 4.2708,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 81
+  },
+  {
+   "t": 4.2708,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 58,
+   "drum": "chh"
+  },
+  {
+   "t": 4.2708,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 64,
+   "drum": "chh"
+  },
+  {
+   "t": 4.2708,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 63,
+   "drum": "chh"
+  },
+  {
+   "t": 4.2708,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 48,
+   "drum": "chh"
+  },
+  {
+   "t": 4.3073,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 4.3229,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 62,
+   "drum": "chh"
+  },
+  {
+   "t": 4.3333,
+   "type": "note_off",
+   "channel": 3,
+   "note": 45
+  },
+  {
+   "t": 4.3333,
+   "type": "note_off",
+   "channel": 3,
+   "note": 53
+  },
+  {
+   "t": 4.3333,
+   "type": "note_off",
+   "channel": 3,
+   "note": 50
+  },
+  {
+   "t": 4.3437,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 4.3594,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 4.375,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 78
+  },
+  {
+   "t": 4.375,
+   "type": "fm",
+   "channel": 3,
+   "note": 53,
+   "velocity": 106
+  },
+  {
+   "t": 4.375,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 50,
+   "drum": "chh"
+  },
+  {
+   "t": 4.375,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 53,
+   "drum": "chh"
+  },
+  {
+   "t": 4.375,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 62,
+   "drum": "chh"
+  },
+  {
+   "t": 4.4271,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 56,
+   "drum": "chh"
+  },
+  {
+   "t": 4.4479,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 4.4635,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 4.4792,
+   "type": "acid",
+   "channel": 0,
+   "note": 82,
+   "velocity": 75
+  },
+  {
+   "t": 4.4792,
+   "type": "drum",
+   "channel": 9,
+   "note": 46,
+   "velocity": 50,
+   "drum": "ohh"
+  },
+  {
+   "t": 4.4792,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 47,
+   "drum": "chh"
+  },
+  {
+   "t": 4.4792,
+   "type": "drum",
+   "channel": 9,
+   "note": 46,
+   "velocity": 60,
+   "drum": "ohh"
+  },
+  {
+   "t": 4.4792,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 48,
+   "drum": "chh"
+  },
+  {
+   "t": 4.5156,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 4.5312,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 64,
+   "drum": "chh"
+  },
+  {
+   "t": 4.5417,
+   "type": "note_off",
+   "channel": 2,
+   "note": 45
+  },
+  {
+   "t": 4.5417,
+   "type": "note_off",
+   "channel": 3,
+   "note": 53
+  },
+  {
+   "t": 4.5521,
+   "type": "note_off",
+   "channel": 9,
+   "note": 46
+  },
+  {
+   "t": 4.5521,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 4.5677,
+   "type": "note_off",
+   "channel": 0,
+   "note": 82
+  },
+  {
+   "t": 4.5833,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 91
+  },
+  {
+   "t": 4.5833,
+   "type": "sub",
+   "channel": 2,
+   "note": 45,
+   "velocity": 100
+  },
+  {
+   "t": 4.5833,
+   "type": "fm",
+   "channel": 3,
+   "note": 53,
+   "velocity": 102
+  },
+  {
+   "t": 4.5833,
+   "type": "fm",
+   "channel": 3,
+   "note": 45,
+   "velocity": 107
+  },
+  {
+   "t": 4.5833,
+   "type": "fm",
+   "channel": 3,
+   "note": 45,
+   "velocity": 114
+  },
+  {
+   "t": 4.5833,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 4.5833,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 4.5833,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 60,
+   "drum": "chh"
+  },
+  {
+   "t": 4.5833,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 4.5833,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 69,
+   "drum": "chh"
+  },
+  {
+   "t": 4.5833,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 4.5833,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 4.5833,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 72,
+   "drum": "chh"
+  },
+  {
+   "t": 4.5833,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 4.5833,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 76,
+   "drum": "chh"
+  },
+  {
+   "t": 4.6198,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 4.6337,
+   "type": "note_off",
+   "channel": 9,
+   "note": 36
+  },
+  {
+   "t": 4.6337,
+   "type": "note_off",
+   "channel": 9,
+   "note": 38
+  },
+  {
+   "t": 4.6354,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 56,
+   "drum": "chh"
+  },
+  {
+   "t": 4.6354,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 58,
+   "drum": "chh"
+  },
+  {
+   "t": 4.6562,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 4.6719,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 4.6875,
+   "type": "acid",
+   "channel": 0,
+   "note": 81,
+   "velocity": 85
+  },
+  {
+   "t": 4.6875,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 55,
+   "drum": "chh"
+  },
+  {
+   "t": 4.6875,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 51,
+   "drum": "chh"
+  },
+  {
+   "t": 4.6875,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 58,
+   "drum": "chh"
+  },
+  {
+   "t": 4.6875,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 49,
+   "drum": "chh"
+  },
+  {
+   "t": 4.724,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 4.7396,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 65,
+   "drum": "chh"
+  },
+  {
+   "t": 4.75,
+   "type": "note_off",
+   "channel": 3,
+   "note": 53
+  },
+  {
+   "t": 4.75,
+   "type": "note_off",
+   "channel": 3,
+   "note": 45
+  },
+  {
+   "t": 4.7604,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 4.776,
+   "type": "note_off",
+   "channel": 0,
+   "note": 81
+  },
+  {
+   "t": 4.7917,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 70
+  },
+  {
+   "t": 4.7917,
+   "type": "fm",
+   "channel": 3,
+   "note": 50,
+   "velocity": 102
+  },
+  {
+   "t": 4.7917,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 57,
+   "drum": "chh"
+  },
+  {
+   "t": 4.7917,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 64,
+   "drum": "chh"
+  },
+  {
+   "t": 4.7917,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 69,
+   "drum": "chh"
+  },
+  {
+   "t": 4.7917,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 73,
+   "drum": "chh"
+  },
+  {
+   "t": 4.8281,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 4.8437,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 45,
+   "drum": "chh"
+  },
+  {
+   "t": 4.8437,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 55,
+   "drum": "chh"
+  },
+  {
+   "t": 4.8646,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 4.8802,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 4.8958,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 75
+  },
+  {
+   "t": 4.8958,
+   "type": "drum",
+   "channel": 9,
+   "note": 46,
+   "velocity": 49,
+   "drum": "ohh"
+  },
+  {
+   "t": 4.8958,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 61,
+   "drum": "chh"
+  },
+  {
+   "t": 4.8958,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 46,
+   "drum": "chh"
+  },
+  {
+   "t": 4.9323,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 4.9583,
+   "type": "note_off",
+   "channel": 2,
+   "note": 45
+  },
+  {
+   "t": 4.9583,
+   "type": "note_off",
+   "channel": 3,
+   "note": 50
+  },
+  {
+   "t": 4.967,
+   "type": "note_off",
+   "channel": 1,
+   "note": 74
+  },
+  {
+   "t": 4.967,
+   "type": "note_off",
+   "channel": 1,
+   "note": 77
+  },
+  {
+   "t": 4.967,
+   "type": "note_off",
+   "channel": 1,
+   "note": 81
+  },
+  {
+   "t": 4.967,
+   "type": "note_off",
+   "channel": 1,
+   "note": 84
+  },
+  {
+   "t": 4.967,
+   "type": "note_off",
+   "channel": 4,
+   "note": 74
+  },
+  {
+   "t": 4.967,
+   "type": "note_off",
+   "channel": 4,
+   "note": 77
+  },
+  {
+   "t": 4.967,
+   "type": "note_off",
+   "channel": 4,
+   "note": 81
+  },
+  {
+   "t": 4.967,
+   "type": "note_off",
+   "channel": 4,
+   "note": 84
+  },
+  {
+   "t": 4.967,
+   "type": "note_off",
+   "channel": 5,
+   "note": 74
+  },
+  {
+   "t": 4.967,
+   "type": "note_off",
+   "channel": 5,
+   "note": 77
+  },
+  {
+   "t": 4.967,
+   "type": "note_off",
+   "channel": 5,
+   "note": 81
+  },
+  {
+   "t": 4.967,
+   "type": "note_off",
+   "channel": 5,
+   "note": 84
+  },
+  {
+   "t": 4.9687,
+   "type": "note_off",
+   "channel": 9,
+   "note": 46
+  },
+  {
+   "t": 4.9844,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 5.0,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 88
+  },
+  {
+   "t": 5.0,
+   "type": "fm",
+   "channel": 3,
+   "note": 53,
+   "velocity": 99
+  },
+  {
+   "t": 5.0,
+   "type": "fm",
+   "channel": 3,
+   "note": 45,
+   "velocity": 113
+  },
+  {
+   "t": 5.0,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 5.0,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 5.0,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 71,
+   "drum": "chh"
+  },
+  {
+   "t": 5.0,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 5.0,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 74,
+   "drum": "chh"
+  },
+  {
+   "t": 5.0,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 5.0,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 5.0,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 69,
+   "drum": "chh"
+  },
+  {
+   "t": 5.0365,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 5.0503,
+   "type": "note_off",
+   "channel": 9,
+   "note": 36
+  },
+  {
+   "t": 5.0503,
+   "type": "note_off",
+   "channel": 9,
+   "note": 38
+  },
+  {
+   "t": 5.0521,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 60,
+   "drum": "chh"
+  },
+  {
+   "t": 5.0521,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 63,
+   "drum": "chh"
+  },
+  {
+   "t": 5.0729,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 5.0885,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 5.1042,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 73
+  },
+  {
+   "t": 5.1042,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 63,
+   "drum": "chh"
+  },
+  {
+   "t": 5.1042,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 46,
+   "drum": "chh"
+  },
+  {
+   "t": 5.1406,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 5.1562,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 59,
+   "drum": "chh"
+  },
+  {
+   "t": 5.1562,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 61,
+   "drum": "chh"
+  },
+  {
+   "t": 5.1667,
+   "type": "note_off",
+   "channel": 3,
+   "note": 53
+  },
+  {
+   "t": 5.1667,
+   "type": "note_off",
+   "channel": 3,
+   "note": 45
+  },
+  {
+   "t": 5.1771,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 5.1927,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 5.2083,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 77
+  },
+  {
+   "t": 5.2083,
+   "type": "fm",
+   "channel": 3,
+   "note": 45,
+   "velocity": 100
+  },
+  {
+   "t": 5.2083,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 61,
+   "drum": "chh"
+  },
+  {
+   "t": 5.2083,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 71,
+   "drum": "chh"
+  },
+  {
+   "t": 5.2448,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 5.2604,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 60,
+   "drum": "chh"
+  },
+  {
+   "t": 5.2604,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 65,
+   "drum": "chh"
+  },
+  {
+   "t": 5.2812,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 5.2969,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 5.3125,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 84
+  },
+  {
+   "t": 5.3125,
+   "type": "drum",
+   "channel": 9,
+   "note": 46,
+   "velocity": 64,
+   "drum": "ohh"
+  },
+  {
+   "t": 5.3125,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 52,
+   "drum": "chh"
+  },
+  {
+   "t": 5.3125,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 47,
+   "drum": "chh"
+  },
+  {
+   "t": 5.3489,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 5.3646,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 48,
+   "drum": "chh"
+  },
+  {
+   "t": 5.375,
+   "type": "note_off",
+   "channel": 3,
+   "note": 45
+  },
+  {
+   "t": 5.3854,
+   "type": "note_off",
+   "channel": 9,
+   "note": 46
+  },
+  {
+   "t": 5.401,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 5.401,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 5.4167,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 92
+  },
+  {
+   "t": 5.4167,
+   "type": "fm",
+   "channel": 3,
+   "note": 50,
+   "velocity": 115
+  },
+  {
+   "t": 5.4167,
+   "type": "fm",
+   "channel": 3,
+   "note": 53,
+   "velocity": 114
+  },
+  {
+   "t": 5.4167,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 5.4167,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 5.4167,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 5.4167,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 71,
+   "drum": "chh"
+  },
+  {
+   "t": 5.4531,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 5.467,
+   "type": "note_off",
+   "channel": 9,
+   "note": 36
+  },
+  {
+   "t": 5.467,
+   "type": "note_off",
+   "channel": 9,
+   "note": 38
+  },
+  {
+   "t": 5.4687,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 57,
+   "drum": "chh"
+  },
+  {
+   "t": 5.5052,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 5.5052,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 5.5208,
+   "type": "acid",
+   "channel": 0,
+   "note": 81,
+   "velocity": 84
+  },
+  {
+   "t": 5.5208,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 53,
+   "drum": "chh"
+  },
+  {
+   "t": 5.5208,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 45,
+   "drum": "chh"
+  },
+  {
+   "t": 5.5573,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 5.5729,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 61,
+   "drum": "chh"
+  },
+  {
+   "t": 5.5729,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 45,
+   "drum": "chh"
+  },
+  {
+   "t": 5.5833,
+   "type": "note_off",
+   "channel": 3,
+   "note": 50
+  },
+  {
+   "t": 5.5833,
+   "type": "note_off",
+   "channel": 3,
+   "note": 53
+  },
+  {
+   "t": 5.6094,
+   "type": "note_off",
+   "channel": 0,
+   "note": 81
+  },
+  {
+   "t": 5.6094,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 5.625,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 71
+  },
+  {
+   "t": 5.625,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 69,
+   "drum": "chh"
+  },
+  {
+   "t": 5.625,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 69,
+   "drum": "chh"
+  },
+  {
+   "t": 5.6614,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 5.6771,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 61,
+   "drum": "chh"
+  },
+  {
+   "t": 5.6771,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 61,
+   "drum": "chh"
+  },
+  {
+   "t": 5.7135,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 5.7135,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 5.7292,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 73
+  },
+  {
+   "t": 5.7292,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 57,
+   "drum": "chh"
+  },
+  {
+   "t": 5.7656,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 5.7812,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 49,
+   "drum": "chh"
+  },
+  {
+   "t": 5.8003,
+   "type": "note_off",
+   "channel": 1,
+   "note": 70
+  },
+  {
+   "t": 5.8003,
+   "type": "note_off",
+   "channel": 4,
+   "note": 70
+  },
+  {
+   "t": 5.8003,
+   "type": "note_off",
+   "channel": 5,
+   "note": 70
+  },
+  {
+   "t": 5.8177,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 5.8177,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 5.8333,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 95
+  },
+  {
+   "t": 5.8333,
+   "type": "pad",
+   "channel": 1,
+   "note": 74,
+   "velocity": 97
+  },
+  {
+   "t": 5.8333,
+   "type": "pad",
+   "channel": 1,
+   "note": 77,
+   "velocity": 99
+  },
+  {
+   "t": 5.8333,
+   "type": "pad",
+   "channel": 1,
+   "note": 81,
+   "velocity": 94
+  },
+  {
+   "t": 5.8333,
+   "type": "pad",
+   "channel": 1,
+   "note": 84,
+   "velocity": 98
+  },
+  {
+   "t": 5.8333,
+   "type": "pad",
+   "channel": 4,
+   "note": 74,
+   "velocity": 95
+  },
+  {
+   "t": 5.8333,
+   "type": "pad",
+   "channel": 4,
+   "note": 77,
+   "velocity": 93
+  },
+  {
+   "t": 5.8333,
+   "type": "pad",
+   "channel": 4,
+   "note": 81,
+   "velocity": 99
+  },
+  {
+   "t": 5.8333,
+   "type": "pad",
+   "channel": 4,
+   "note": 84,
+   "velocity": 98
+  },
+  {
+   "t": 5.8333,
+   "type": "pad",
+   "channel": 5,
+   "note": 74,
+   "velocity": 96
+  },
+  {
+   "t": 5.8333,
+   "type": "pad",
+   "channel": 5,
+   "note": 77,
+   "velocity": 91
+  },
+  {
+   "t": 5.8333,
+   "type": "pad",
+   "channel": 5,
+   "note": 81,
+   "velocity": 92
+  },
+  {
+   "t": 5.8333,
+   "type": "pad",
+   "channel": 5,
+   "note": 84,
+   "velocity": 91
+  },
+  {
+   "t": 5.8333,
+   "type": "sub",
+   "channel": 2,
+   "note": 45,
+   "velocity": 100
+  },
+  {
+   "t": 5.8333,
+   "type": "fm",
+   "channel": 3,
+   "note": 45,
+   "velocity": 106
+  },
+  {
+   "t": 5.8333,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 5.8333,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 5.8333,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 5.8333,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 60,
+   "drum": "chh"
+  },
+  {
+   "t": 5.8333,
+   "type": "drum",
+   "channel": 9,
+   "note": 55,
+   "velocity": 90,
+   "drum": "revcym"
+  },
+  {
+   "t": 5.8837,
+   "type": "note_off",
+   "channel": 9,
+   "note": 36
+  },
+  {
+   "t": 5.8837,
+   "type": "note_off",
+   "channel": 9,
+   "note": 38
+  },
+  {
+   "t": 5.8854,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 50,
+   "drum": "chh"
+  },
+  {
+   "t": 5.9062,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 5.9219,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 5.9375,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 79
+  },
+  {
+   "t": 5.9375,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 62,
+   "drum": "chh"
+  },
+  {
+   "t": 5.9375,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 58,
+   "drum": "chh"
+  },
+  {
+   "t": 5.9739,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 5.9896,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 47,
+   "drum": "chh"
+  },
+  {
+   "t": 6.0,
+   "type": "note_off",
+   "channel": 3,
+   "note": 45
+  },
+  {
+   "t": 6.0104,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 6.026,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 6.0417,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 74
+  },
+  {
+   "t": 6.0417,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 67,
+   "drum": "chh"
+  },
+  {
+   "t": 6.0417,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 53,
+   "drum": "chh"
+  },
+  {
+   "t": 6.0781,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 6.0937,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 64,
+   "drum": "chh"
+  },
+  {
+   "t": 6.1146,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 6.1302,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 6.1458,
+   "type": "acid",
+   "channel": 0,
+   "note": 82,
+   "velocity": 78
+  },
+  {
+   "t": 6.1458,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 46,
+   "drum": "chh"
+  },
+  {
+   "t": 6.1458,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 64,
+   "drum": "chh"
+  },
+  {
+   "t": 6.1823,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 6.1979,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 55,
+   "drum": "chh"
+  },
+  {
+   "t": 6.2083,
+   "type": "note_off",
+   "channel": 2,
+   "note": 45
+  },
+  {
+   "t": 6.2187,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 6.2344,
+   "type": "note_off",
+   "channel": 0,
+   "note": 82
+  },
+  {
+   "t": 6.25,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 97
+  },
+  {
+   "t": 6.25,
+   "type": "sub",
+   "channel": 2,
+   "note": 45,
+   "velocity": 100
+  },
+  {
+   "t": 6.25,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 6.25,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 6.25,
+   "type": "drum",
+   "channel": 9,
+   "note": 39,
+   "velocity": 60,
+   "drum": "clap"
+  },
+  {
+   "t": 6.25,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 79,
+   "drum": "chh"
+  },
+  {
+   "t": 6.25,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 6.25,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 63,
+   "drum": "chh"
+  },
+  {
+   "t": 6.25,
+   "type": "drum",
+   "channel": 9,
+   "note": 49,
+   "velocity": 110,
+   "drum": "crash"
+  },
+  {
+   "t": 6.2917,
+   "type": "note_off",
+   "channel": 9,
+   "note": 39
+  },
+  {
+   "t": 6.3003,
+   "type": "note_off",
+   "channel": 9,
+   "note": 36
+  },
+  {
+   "t": 6.3003,
+   "type": "note_off",
+   "channel": 9,
+   "note": 38
+  },
+  {
+   "t": 6.3229,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 6.3385,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 6.3542,
+   "type": "acid",
+   "channel": 0,
+   "note": 81,
+   "velocity": 83
+  },
+  {
+   "t": 6.3542,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 63,
+   "drum": "chh"
+  },
+  {
+   "t": 6.3542,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 64,
+   "drum": "chh"
+  },
+  {
+   "t": 6.4271,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 6.4427,
+   "type": "note_off",
+   "channel": 0,
+   "note": 81
+  },
+  {
+   "t": 6.4583,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 85
+  },
+  {
+   "t": 6.4583,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 49,
+   "drum": "chh"
+  },
+  {
+   "t": 6.4583,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 57,
+   "drum": "chh"
+  },
+  {
+   "t": 6.5312,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 6.5469,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 6.5625,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 79
+  },
+  {
+   "t": 6.5625,
+   "type": "drum",
+   "channel": 9,
+   "note": 46,
+   "velocity": 55,
+   "drum": "ohh"
+  },
+  {
+   "t": 6.5625,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 60,
+   "drum": "chh"
+  },
+  {
+   "t": 6.6354,
+   "type": "note_off",
+   "channel": 9,
+   "note": 46
+  },
+  {
+   "t": 6.6354,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 6.651,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 6.6667,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 102
+  },
+  {
+   "t": 6.6667,
+   "type": "pad",
+   "channel": 1,
+   "note": 70,
+   "velocity": 91
+  },
+  {
+   "t": 6.6667,
+   "type": "pad",
+   "channel": 1,
+   "note": 74,
+   "velocity": 93
+  },
+  {
+   "t": 6.6667,
+   "type": "pad",
+   "channel": 1,
+   "note": 77,
+   "velocity": 91
+  },
+  {
+   "t": 6.6667,
+   "type": "pad",
+   "channel": 1,
+   "note": 81,
+   "velocity": 96
+  },
+  {
+   "t": 6.6667,
+   "type": "pad",
+   "channel": 4,
+   "note": 70,
+   "velocity": 98
+  },
+  {
+   "t": 6.6667,
+   "type": "pad",
+   "channel": 4,
+   "note": 74,
+   "velocity": 94
+  },
+  {
+   "t": 6.6667,
+   "type": "pad",
+   "channel": 4,
+   "note": 77,
+   "velocity": 98
+  },
+  {
+   "t": 6.6667,
+   "type": "pad",
+   "channel": 4,
+   "note": 81,
+   "velocity": 99
+  },
+  {
+   "t": 6.6667,
+   "type": "pad",
+   "channel": 5,
+   "note": 70,
+   "velocity": 91
+  },
+  {
+   "t": 6.6667,
+   "type": "pad",
+   "channel": 5,
+   "note": 74,
+   "velocity": 97
+  },
+  {
+   "t": 6.6667,
+   "type": "pad",
+   "channel": 5,
+   "note": 77,
+   "velocity": 96
+  },
+  {
+   "t": 6.6667,
+   "type": "pad",
+   "channel": 5,
+   "note": 81,
+   "velocity": 91
+  },
+  {
+   "t": 6.6667,
+   "type": "sub",
+   "channel": 2,
+   "note": 45,
+   "velocity": 100
+  },
+  {
+   "t": 6.6667,
+   "type": "fm",
+   "channel": 3,
+   "note": 45,
+   "velocity": 70
+  },
+  {
+   "t": 6.6667,
+   "type": "note_off",
+   "channel": 9,
+   "note": 55
+  },
+  {
+   "t": 6.6667,
+   "type": "note_off",
+   "channel": 9,
+   "note": 49
+  },
+  {
+   "t": 6.6667,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 6.6667,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 74,
+   "drum": "chh"
+  },
+  {
+   "t": 6.6667,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 6.6667,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 6.6667,
+   "type": "drum",
+   "channel": 9,
+   "note": 39,
+   "velocity": 60,
+   "drum": "clap"
+  },
+  {
+   "t": 6.6667,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 79,
+   "drum": "chh"
+  },
+  {
+   "t": 6.6667,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 6.6667,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 76,
+   "drum": "chh"
+  },
+  {
+   "t": 6.7083,
+   "type": "note_off",
+   "channel": 9,
+   "note": 39
+  },
+  {
+   "t": 6.717,
+   "type": "note_off",
+   "channel": 9,
+   "note": 36
+  },
+  {
+   "t": 6.717,
+   "type": "note_off",
+   "channel": 9,
+   "note": 38
+  },
+  {
+   "t": 6.7396,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 6.7552,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 6.7708,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 75
+  },
+  {
+   "t": 6.7708,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 60,
+   "drum": "chh"
+  },
+  {
+   "t": 6.7708,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 49,
+   "drum": "chh"
+  },
+  {
+   "t": 6.7708,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 54,
+   "drum": "chh"
+  },
+  {
+   "t": 6.8437,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 6.8594,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 6.875,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 84
+  },
+  {
+   "t": 6.875,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 53,
+   "drum": "chh"
+  },
+  {
+   "t": 6.875,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 52,
+   "drum": "chh"
+  },
+  {
+   "t": 6.875,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 55,
+   "drum": "chh"
+  },
+  {
+   "t": 6.9167,
+   "type": "note_off",
+   "channel": 3,
+   "note": 45
+  },
+  {
+   "t": 6.9479,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 6.9635,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 6.9792,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 72
+  },
+  {
+   "t": 6.9792,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 53,
+   "drum": "chh"
+  },
+  {
+   "t": 6.9792,
+   "type": "drum",
+   "channel": 9,
+   "note": 46,
+   "velocity": 63,
+   "drum": "ohh"
+  },
+  {
+   "t": 6.9792,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 49,
+   "drum": "chh"
+  },
+  {
+   "t": 7.0521,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 7.0521,
+   "type": "note_off",
+   "channel": 9,
+   "note": 46
+  },
+  {
+   "t": 7.0677,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 7.0833,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 93
+  },
+  {
+   "t": 7.0833,
+   "type": "sub",
+   "channel": 2,
+   "note": 45,
+   "velocity": 100
+  },
+  {
+   "t": 7.0833,
+   "type": "fm",
+   "channel": 3,
+   "note": 45,
+   "velocity": 70
+  },
+  {
+   "t": 7.0833,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 7.0833,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 7.0833,
+   "type": "drum",
+   "channel": 9,
+   "note": 39,
+   "velocity": 60,
+   "drum": "clap"
+  },
+  {
+   "t": 7.0833,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 77,
+   "drum": "chh"
+  },
+  {
+   "t": 7.0833,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 7.0833,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 78,
+   "drum": "chh"
+  },
+  {
+   "t": 7.0833,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 7.0833,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 7.0833,
+   "type": "drum",
+   "channel": 9,
+   "note": 39,
+   "velocity": 60,
+   "drum": "clap"
+  },
+  {
+   "t": 7.0833,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 72,
+   "drum": "chh"
+  },
+  {
+   "t": 7.0833,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 7.0833,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 76,
+   "drum": "chh"
+  },
+  {
+   "t": 7.1198,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 7.125,
+   "type": "note_off",
+   "channel": 9,
+   "note": 39
+  },
+  {
+   "t": 7.1337,
+   "type": "note_off",
+   "channel": 9,
+   "note": 36
+  },
+  {
+   "t": 7.1337,
+   "type": "note_off",
+   "channel": 9,
+   "note": 38
+  },
+  {
+   "t": 7.1354,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 50,
+   "drum": "chh"
+  },
+  {
+   "t": 7.1562,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 7.1719,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 7.1875,
+   "type": "acid",
+   "channel": 0,
+   "note": 81,
+   "velocity": 86
+  },
+  {
+   "t": 7.1875,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 56,
+   "drum": "chh"
+  },
+  {
+   "t": 7.1875,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 58,
+   "drum": "chh"
+  },
+  {
+   "t": 7.1875,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 53,
+   "drum": "chh"
+  },
+  {
+   "t": 7.1875,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 51,
+   "drum": "chh"
+  },
+  {
+   "t": 7.2239,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 7.2396,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 48,
+   "drum": "chh"
+  },
+  {
+   "t": 7.2604,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 7.276,
+   "type": "note_off",
+   "channel": 0,
+   "note": 81
+  },
+  {
+   "t": 7.2917,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 74
+  },
+  {
+   "t": 7.2917,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 65,
+   "drum": "chh"
+  },
+  {
+   "t": 7.2917,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 63,
+   "drum": "chh"
+  },
+  {
+   "t": 7.2917,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 65,
+   "drum": "chh"
+  },
+  {
+   "t": 7.2917,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 72,
+   "drum": "chh"
+  },
+  {
+   "t": 7.3281,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 7.3333,
+   "type": "note_off",
+   "channel": 3,
+   "note": 45
+  },
+  {
+   "t": 7.3437,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 58,
+   "drum": "chh"
+  },
+  {
+   "t": 7.3646,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 7.3802,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 7.3958,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 85
+  },
+  {
+   "t": 7.3958,
+   "type": "drum",
+   "channel": 9,
+   "note": 46,
+   "velocity": 60,
+   "drum": "ohh"
+  },
+  {
+   "t": 7.3958,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 51,
+   "drum": "chh"
+  },
+  {
+   "t": 7.3958,
+   "type": "drum",
+   "channel": 9,
+   "note": 46,
+   "velocity": 62,
+   "drum": "ohh"
+  },
+  {
+   "t": 7.3958,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 62,
+   "drum": "chh"
+  },
+  {
+   "t": 7.4323,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 7.4479,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 52,
+   "drum": "chh"
+  },
+  {
+   "t": 7.4583,
+   "type": "note_off",
+   "channel": 2,
+   "note": 45
+  },
+  {
+   "t": 7.467,
+   "type": "note_off",
+   "channel": 1,
+   "note": 74
+  },
+  {
+   "t": 7.467,
+   "type": "note_off",
+   "channel": 1,
+   "note": 77
+  },
+  {
+   "t": 7.467,
+   "type": "note_off",
+   "channel": 1,
+   "note": 81
+  },
+  {
+   "t": 7.467,
+   "type": "note_off",
+   "channel": 1,
+   "note": 84
+  },
+  {
+   "t": 7.467,
+   "type": "note_off",
+   "channel": 4,
+   "note": 74
+  },
+  {
+   "t": 7.467,
+   "type": "note_off",
+   "channel": 4,
+   "note": 77
+  },
+  {
+   "t": 7.467,
+   "type": "note_off",
+   "channel": 4,
+   "note": 81
+  },
+  {
+   "t": 7.467,
+   "type": "note_off",
+   "channel": 4,
+   "note": 84
+  },
+  {
+   "t": 7.467,
+   "type": "note_off",
+   "channel": 5,
+   "note": 74
+  },
+  {
+   "t": 7.467,
+   "type": "note_off",
+   "channel": 5,
+   "note": 77
+  },
+  {
+   "t": 7.467,
+   "type": "note_off",
+   "channel": 5,
+   "note": 81
+  },
+  {
+   "t": 7.467,
+   "type": "note_off",
+   "channel": 5,
+   "note": 84
+  },
+  {
+   "t": 7.4687,
+   "type": "note_off",
+   "channel": 9,
+   "note": 46
+  },
+  {
+   "t": 7.4687,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 7.4844,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 7.5,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 89
+  },
+  {
+   "t": 7.5,
+   "type": "pad",
+   "channel": 1,
+   "note": 69,
+   "velocity": 53
+  },
+  {
+   "t": 7.5,
+   "type": "pad",
+   "channel": 1,
+   "note": 72,
+   "velocity": 53
+  },
+  {
+   "t": 7.5,
+   "type": "pad",
+   "channel": 1,
+   "note": 76,
+   "velocity": 51
+  },
+  {
+   "t": 7.5,
+   "type": "pad",
+   "channel": 1,
+   "note": 79,
+   "velocity": 48
+  },
+  {
+   "t": 7.5,
+   "type": "pad",
+   "channel": 4,
+   "note": 69,
+   "velocity": 53
+  },
+  {
+   "t": 7.5,
+   "type": "pad",
+   "channel": 4,
+   "note": 72,
+   "velocity": 46
+  },
+  {
+   "t": 7.5,
+   "type": "pad",
+   "channel": 4,
+   "note": 76,
+   "velocity": 46
+  },
+  {
+   "t": 7.5,
+   "type": "pad",
+   "channel": 4,
+   "note": 79,
+   "velocity": 46
+  },
+  {
+   "t": 7.5,
+   "type": "pad",
+   "channel": 5,
+   "note": 69,
+   "velocity": 46
+  },
+  {
+   "t": 7.5,
+   "type": "pad",
+   "channel": 5,
+   "note": 72,
+   "velocity": 49
+  },
+  {
+   "t": 7.5,
+   "type": "pad",
+   "channel": 5,
+   "note": 76,
+   "velocity": 46
+  },
+  {
+   "t": 7.5,
+   "type": "pad",
+   "channel": 5,
+   "note": 79,
+   "velocity": 47
+  },
+  {
+   "t": 7.5,
+   "type": "sub",
+   "channel": 2,
+   "note": 45,
+   "velocity": 80
+  },
+  {
+   "t": 7.5,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 7.5,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 7.5,
+   "type": "drum",
+   "channel": 9,
+   "note": 39,
+   "velocity": 60,
+   "drum": "clap"
+  },
+  {
+   "t": 7.5,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 63,
+   "drum": "chh"
+  },
+  {
+   "t": 7.5,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 7.5,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 72,
+   "drum": "chh"
+  },
+  {
+   "t": 7.5,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 7.5,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 7.5,
+   "type": "drum",
+   "channel": 9,
+   "note": 39,
+   "velocity": 60,
+   "drum": "clap"
+  },
+  {
+   "t": 7.5,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 69,
+   "drum": "chh"
+  },
+  {
+   "t": 7.5,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 7.5364,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 7.5417,
+   "type": "note_off",
+   "channel": 9,
+   "note": 39
+  },
+  {
+   "t": 7.5503,
+   "type": "note_off",
+   "channel": 9,
+   "note": 36
+  },
+  {
+   "t": 7.5503,
+   "type": "note_off",
+   "channel": 9,
+   "note": 38
+  },
+  {
+   "t": 7.5521,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 50,
+   "drum": "chh"
+  },
+  {
+   "t": 7.5521,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 47,
+   "drum": "chh"
+  },
+  {
+   "t": 7.5729,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 7.5885,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 7.6042,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 84
+  },
+  {
+   "t": 7.6042,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 50,
+   "drum": "chh"
+  },
+  {
+   "t": 7.6042,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 54,
+   "drum": "chh"
+  },
+  {
+   "t": 7.6042,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 45,
+   "drum": "chh"
+  },
+  {
+   "t": 7.6406,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 7.6562,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 57,
+   "drum": "chh"
+  },
+  {
+   "t": 7.6562,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 59,
+   "drum": "chh"
+  },
+  {
+   "t": 7.6771,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 7.6927,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 7.7083,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 71
+  },
+  {
+   "t": 7.7083,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 51,
+   "drum": "chh"
+  },
+  {
+   "t": 7.7083,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 54,
+   "drum": "chh"
+  },
+  {
+   "t": 7.7083,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 65,
+   "drum": "chh"
+  },
+  {
+   "t": 7.7083,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 67,
+   "drum": "chh"
+  },
+  {
+   "t": 7.7448,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 7.7604,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 53,
+   "drum": "chh"
+  },
+  {
+   "t": 7.7812,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 7.7969,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 7.8125,
+   "type": "acid",
+   "channel": 0,
+   "note": 82,
+   "velocity": 85
+  },
+  {
+   "t": 7.8125,
+   "type": "drum",
+   "channel": 9,
+   "note": 46,
+   "velocity": 56,
+   "drum": "ohh"
+  },
+  {
+   "t": 7.8125,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 47,
+   "drum": "chh"
+  },
+  {
+   "t": 7.8125,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 57,
+   "drum": "chh"
+  },
+  {
+   "t": 7.8489,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 7.8646,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 61,
+   "drum": "chh"
+  },
+  {
+   "t": 7.8646,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 62,
+   "drum": "chh"
+  },
+  {
+   "t": 7.875,
+   "type": "note_off",
+   "channel": 2,
+   "note": 45
+  },
+  {
+   "t": 7.8854,
+   "type": "note_off",
+   "channel": 9,
+   "note": 46
+  },
+  {
+   "t": 7.8854,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 7.901,
+   "type": "note_off",
+   "channel": 0,
+   "note": 82
+  },
+  {
+   "t": 7.9167,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 95
+  },
+  {
+   "t": 7.9167,
+   "type": "sub",
+   "channel": 2,
+   "note": 45,
+   "velocity": 80
+  },
+  {
+   "t": 7.9167,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 7.9167,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 7.9167,
+   "type": "drum",
+   "channel": 9,
+   "note": 39,
+   "velocity": 60,
+   "drum": "clap"
+  },
+  {
+   "t": 7.9167,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 61,
+   "drum": "chh"
+  },
+  {
+   "t": 7.9167,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 7.9167,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 74,
+   "drum": "chh"
+  },
+  {
+   "t": 7.9167,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 7.9167,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 7.9167,
+   "type": "drum",
+   "channel": 9,
+   "note": 39,
+   "velocity": 60,
+   "drum": "clap"
+  },
+  {
+   "t": 7.9167,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 70,
+   "drum": "chh"
+  },
+  {
+   "t": 7.9167,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 7.9167,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 66,
+   "drum": "chh"
+  },
+  {
+   "t": 7.9531,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 7.9583,
+   "type": "note_off",
+   "channel": 9,
+   "note": 39
+  },
+  {
+   "t": 7.967,
+   "type": "note_off",
+   "channel": 9,
+   "note": 36
+  },
+  {
+   "t": 7.967,
+   "type": "note_off",
+   "channel": 9,
+   "note": 38
+  },
+  {
+   "t": 7.9687,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 65,
+   "drum": "chh"
+  },
+  {
+   "t": 7.9896,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 8.0052,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 8.0208,
+   "type": "acid",
+   "channel": 0,
+   "note": 81,
+   "velocity": 84
+  },
+  {
+   "t": 8.0208,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 64,
+   "drum": "chh"
+  },
+  {
+   "t": 8.0208,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 59,
+   "drum": "chh"
+  },
+  {
+   "t": 8.0208,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 57,
+   "drum": "chh"
+  },
+  {
+   "t": 8.0208,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 47,
+   "drum": "chh"
+  },
+  {
+   "t": 8.0573,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 8.0729,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 64,
+   "drum": "chh"
+  },
+  {
+   "t": 8.0729,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 45,
+   "drum": "chh"
+  },
+  {
+   "t": 8.0937,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 8.1094,
+   "type": "note_off",
+   "channel": 0,
+   "note": 81
+  },
+  {
+   "t": 8.125,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 81
+  },
+  {
+   "t": 8.125,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 45,
+   "drum": "chh"
+  },
+  {
+   "t": 8.125,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 76,
+   "drum": "chh"
+  },
+  {
+   "t": 8.125,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 69,
+   "drum": "chh"
+  },
+  {
+   "t": 8.125,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 46,
+   "drum": "chh"
+  },
+  {
+   "t": 8.1614,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 8.1771,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 49,
+   "drum": "chh"
+  },
+  {
+   "t": 8.1979,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 8.2135,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 8.2292,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 86
+  },
+  {
+   "t": 8.2292,
+   "type": "drum",
+   "channel": 9,
+   "note": 46,
+   "velocity": 65,
+   "drum": "ohh"
+  },
+  {
+   "t": 8.2292,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 49,
+   "drum": "chh"
+  },
+  {
+   "t": 8.2292,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 57,
+   "drum": "chh"
+  },
+  {
+   "t": 8.2292,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 61,
+   "drum": "chh"
+  },
+  {
+   "t": 8.2656,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 8.2812,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 45,
+   "drum": "chh"
+  },
+  {
+   "t": 8.2917,
+   "type": "note_off",
+   "channel": 2,
+   "note": 45
+  },
+  {
+   "t": 8.3003,
+   "type": "note_off",
+   "channel": 1,
+   "note": 70
+  },
+  {
+   "t": 8.3003,
+   "type": "note_off",
+   "channel": 4,
+   "note": 70
+  },
+  {
+   "t": 8.3003,
+   "type": "note_off",
+   "channel": 5,
+   "note": 70
+  },
+  {
+   "t": 8.3021,
+   "type": "note_off",
+   "channel": 9,
+   "note": 46
+  },
+  {
+   "t": 8.3021,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 8.3177,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 8.3333,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 96
+  },
+  {
+   "t": 8.3333,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 8.3333,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 8.3333,
+   "type": "drum",
+   "channel": 9,
+   "note": 39,
+   "velocity": 60,
+   "drum": "clap"
+  },
+  {
+   "t": 8.3333,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 66,
+   "drum": "chh"
+  },
+  {
+   "t": 8.3333,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 8.3333,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 69,
+   "drum": "chh"
+  },
+  {
+   "t": 8.3333,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 8.3333,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 8.3333,
+   "type": "drum",
+   "channel": 9,
+   "note": 39,
+   "velocity": 60,
+   "drum": "clap"
+  },
+  {
+   "t": 8.3333,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 76,
+   "drum": "chh"
+  },
+  {
+   "t": 8.3698,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 8.375,
+   "type": "note_off",
+   "channel": 9,
+   "note": 39
+  },
+  {
+   "t": 8.3837,
+   "type": "note_off",
+   "channel": 9,
+   "note": 36
+  },
+  {
+   "t": 8.3837,
+   "type": "note_off",
+   "channel": 9,
+   "note": 38
+  },
+  {
+   "t": 8.3854,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 61,
+   "drum": "chh"
+  },
+  {
+   "t": 8.4062,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 8.4219,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 8.4375,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 77
+  },
+  {
+   "t": 8.4375,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 60,
+   "drum": "chh"
+  },
+  {
+   "t": 8.4375,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 64,
+   "drum": "chh"
+  },
+  {
+   "t": 8.4375,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 59,
+   "drum": "chh"
+  },
+  {
+   "t": 8.4739,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 8.526,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 8.5417,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 72
+  },
+  {
+   "t": 8.5417,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 79,
+   "drum": "chh"
+  },
+  {
+   "t": 8.5417,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 65,
+   "drum": "chh"
+  },
+  {
+   "t": 8.5781,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 8.5937,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 63,
+   "drum": "chh"
+  },
+  {
+   "t": 8.5937,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 54,
+   "drum": "chh"
+  },
+  {
+   "t": 8.6146,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 8.6302,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 8.6458,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 79
+  },
+  {
+   "t": 8.6458,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 48,
+   "drum": "chh"
+  },
+  {
+   "t": 8.6458,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 61,
+   "drum": "chh"
+  },
+  {
+   "t": 8.6458,
+   "type": "drum",
+   "channel": 9,
+   "note": 46,
+   "velocity": 46,
+   "drum": "ohh"
+  },
+  {
+   "t": 8.6823,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 8.6979,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 63,
+   "drum": "chh"
+  },
+  {
+   "t": 8.7187,
+   "type": "note_off",
+   "channel": 9,
+   "note": 46
+  },
+  {
+   "t": 8.7344,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 8.7344,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 8.75,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 99
+  },
+  {
+   "t": 8.75,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 8.75,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 8.75,
+   "type": "drum",
+   "channel": 9,
+   "note": 39,
+   "velocity": 60,
+   "drum": "clap"
+  },
+  {
+   "t": 8.75,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 62,
+   "drum": "chh"
+  },
+  {
+   "t": 8.75,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 8.75,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 79,
+   "drum": "chh"
+  },
+  {
+   "t": 8.7864,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 8.7917,
+   "type": "note_off",
+   "channel": 9,
+   "note": 39
+  },
+  {
+   "t": 8.8003,
+   "type": "note_off",
+   "channel": 9,
+   "note": 36
+  },
+  {
+   "t": 8.8003,
+   "type": "note_off",
+   "channel": 9,
+   "note": 38
+  },
+  {
+   "t": 8.8385,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 8.8542,
+   "type": "acid",
+   "channel": 0,
+   "note": 81,
+   "velocity": 86
+  },
+  {
+   "t": 8.8542,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 45,
+   "drum": "chh"
+  },
+  {
+   "t": 8.9271,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 8.9427,
+   "type": "note_off",
+   "channel": 0,
+   "note": 81
+  },
+  {
+   "t": 8.9583,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 83
+  },
+  {
+   "t": 8.9583,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 55,
+   "drum": "chh"
+  },
+  {
+   "t": 9.0104,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 60,
+   "drum": "chh"
+  },
+  {
+   "t": 9.0312,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 9.0469,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 9.0625,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 80
+  },
+  {
+   "t": 9.0625,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 57,
+   "drum": "chh"
+  },
+  {
+   "t": 9.1146,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 65,
+   "drum": "chh"
+  },
+  {
+   "t": 9.1337,
+   "type": "note_off",
+   "channel": 1,
+   "note": 69
+  },
+  {
+   "t": 9.1337,
+   "type": "note_off",
+   "channel": 1,
+   "note": 72
+  },
+  {
+   "t": 9.1337,
+   "type": "note_off",
+   "channel": 1,
+   "note": 76
+  },
+  {
+   "t": 9.1337,
+   "type": "note_off",
+   "channel": 1,
+   "note": 79
+  },
+  {
+   "t": 9.1337,
+   "type": "note_off",
+   "channel": 4,
+   "note": 69
+  },
+  {
+   "t": 9.1337,
+   "type": "note_off",
+   "channel": 4,
+   "note": 72
+  },
+  {
+   "t": 9.1337,
+   "type": "note_off",
+   "channel": 4,
+   "note": 76
+  },
+  {
+   "t": 9.1337,
+   "type": "note_off",
+   "channel": 4,
+   "note": 79
+  },
+  {
+   "t": 9.1337,
+   "type": "note_off",
+   "channel": 5,
+   "note": 69
+  },
+  {
+   "t": 9.1337,
+   "type": "note_off",
+   "channel": 5,
+   "note": 72
+  },
+  {
+   "t": 9.1337,
+   "type": "note_off",
+   "channel": 5,
+   "note": 76
+  },
+  {
+   "t": 9.1337,
+   "type": "note_off",
+   "channel": 5,
+   "note": 79
+  },
+  {
+   "t": 9.1354,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 9.151,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 9.1667,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 88
+  },
+  {
+   "t": 9.1667,
+   "type": "drum",
+   "channel": 9,
+   "note": 36,
+   "velocity": 118,
+   "drum": "kick"
+  },
+  {
+   "t": 9.1667,
+   "type": "drum",
+   "channel": 9,
+   "note": 38,
+   "velocity": 100,
+   "drum": "snare"
+  },
+  {
+   "t": 9.1667,
+   "type": "drum",
+   "channel": 9,
+   "note": 39,
+   "velocity": 60,
+   "drum": "clap"
+  },
+  {
+   "t": 9.1667,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 61,
+   "drum": "chh"
+  },
+  {
+   "t": 9.2083,
+   "type": "note_off",
+   "channel": 9,
+   "note": 39
+  },
+  {
+   "t": 9.217,
+   "type": "note_off",
+   "channel": 9,
+   "note": 36
+  },
+  {
+   "t": 9.217,
+   "type": "note_off",
+   "channel": 9,
+   "note": 38
+  },
+  {
+   "t": 9.2396,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 9.2552,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 9.2708,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 70
+  },
+  {
+   "t": 9.2708,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 53,
+   "drum": "chh"
+  },
+  {
+   "t": 9.3437,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 9.3594,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 9.375,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 81
+  },
+  {
+   "t": 9.375,
+   "type": "drum",
+   "channel": 9,
+   "note": 42,
+   "velocity": 51,
+   "drum": "chh"
+  },
+  {
+   "t": 9.4479,
+   "type": "note_off",
+   "channel": 9,
+   "note": 42
+  },
+  {
+   "t": 9.4635,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 9.4792,
+   "type": "acid",
+   "channel": 0,
+   "note": 82,
+   "velocity": 85
+  },
+  {
+   "t": 9.4792,
+   "type": "drum",
+   "channel": 9,
+   "note": 46,
+   "velocity": 58,
+   "drum": "ohh"
+  },
+  {
+   "t": 9.5521,
+   "type": "note_off",
+   "channel": 9,
+   "note": 46
+  },
+  {
+   "t": 9.5677,
+   "type": "note_off",
+   "channel": 0,
+   "note": 82
+  },
+  {
+   "t": 9.5833,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 92
+  },
+  {
+   "t": 9.6719,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 9.6875,
+   "type": "acid",
+   "channel": 0,
+   "note": 81,
+   "velocity": 84
+  },
+  {
+   "t": 9.776,
+   "type": "note_off",
+   "channel": 0,
+   "note": 81
+  },
+  {
+   "t": 9.7917,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 85
+  },
+  {
+   "t": 9.8802,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 9.8958,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 78
+  },
+  {
+   "t": 9.9844,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 10.0,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 94
+  },
+  {
+   "t": 10.0885,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 10.1042,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 78
+  },
+  {
+   "t": 10.1927,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 10.2083,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 72
+  },
+  {
+   "t": 10.2969,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 10.3125,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 73
+  },
+  {
+   "t": 10.401,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 10.4166,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 91
+  },
+  {
+   "t": 10.5052,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 10.5208,
+   "type": "acid",
+   "channel": 0,
+   "note": 81,
+   "velocity": 80
+  },
+  {
+   "t": 10.6094,
+   "type": "note_off",
+   "channel": 0,
+   "note": 81
+  },
+  {
+   "t": 10.625,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 82
+  },
+  {
+   "t": 10.7135,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 10.7291,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 70
+  },
+  {
+   "t": 10.8177,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 10.8333,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 98
+  },
+  {
+   "t": 10.9219,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 10.9375,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 77
+  },
+  {
+   "t": 11.026,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 11.0416,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 80
+  },
+  {
+   "t": 11.1302,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 11.1458,
+   "type": "acid",
+   "channel": 0,
+   "note": 82,
+   "velocity": 84
+  },
+  {
+   "t": 11.2344,
+   "type": "note_off",
+   "channel": 0,
+   "note": 82
+  },
+  {
+   "t": 11.25,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 98
+  },
+  {
+   "t": 11.3385,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 11.3541,
+   "type": "acid",
+   "channel": 0,
+   "note": 81,
+   "velocity": 80
+  },
+  {
+   "t": 11.4427,
+   "type": "note_off",
+   "channel": 0,
+   "note": 81
+  },
+  {
+   "t": 11.4583,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 81
+  },
+  {
+   "t": 11.5469,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 11.5625,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 86
+  },
+  {
+   "t": 11.651,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 11.6666,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 88
+  },
+  {
+   "t": 11.7552,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 11.7708,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 72
+  },
+  {
+   "t": 11.8594,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 11.875,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 79
+  },
+  {
+   "t": 11.9635,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 11.9791,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 86
+  },
+  {
+   "t": 12.0677,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 12.0833,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 98
+  },
+  {
+   "t": 12.1719,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 12.1875,
+   "type": "acid",
+   "channel": 0,
+   "note": 81,
+   "velocity": 84
+  },
+  {
+   "t": 12.276,
+   "type": "note_off",
+   "channel": 0,
+   "note": 81
+  },
+  {
+   "t": 12.2916,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 75
+  },
+  {
+   "t": 12.3802,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 12.3958,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 73
+  },
+  {
+   "t": 12.4844,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 12.5,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 98
+  },
+  {
+   "t": 12.5885,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 12.6041,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 80
+  },
+  {
+   "t": 12.6927,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 12.7083,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 70
+  },
+  {
+   "t": 12.7969,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 12.8125,
+   "type": "acid",
+   "channel": 0,
+   "note": 82,
+   "velocity": 84
+  },
+  {
+   "t": 12.901,
+   "type": "note_off",
+   "channel": 0,
+   "note": 82
+  },
+  {
+   "t": 12.9166,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 88
+  },
+  {
+   "t": 13.0052,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 13.0208,
+   "type": "acid",
+   "channel": 0,
+   "note": 81,
+   "velocity": 85
+  },
+  {
+   "t": 13.1094,
+   "type": "note_off",
+   "channel": 0,
+   "note": 81
+  },
+  {
+   "t": 13.125,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 75
+  },
+  {
+   "t": 13.2135,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 13.2291,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 86
+  },
+  {
+   "t": 13.3177,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 13.3333,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 92
+  },
+  {
+   "t": 13.4219,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 13.4375,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 74
+  },
+  {
+   "t": 13.526,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 13.5416,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 74
+  },
+  {
+   "t": 13.6302,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 13.6458,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 81
+  },
+  {
+   "t": 13.7344,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 13.75,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 99
+  },
+  {
+   "t": 13.8385,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 13.8541,
+   "type": "acid",
+   "channel": 0,
+   "note": 81,
+   "velocity": 84
+  },
+  {
+   "t": 13.9427,
+   "type": "note_off",
+   "channel": 0,
+   "note": 81
+  },
+  {
+   "t": 13.9583,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 71
+  },
+  {
+   "t": 14.0469,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 14.0625,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 73
+  },
+  {
+   "t": 14.151,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 14.1666,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 92
+  },
+  {
+   "t": 14.2552,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 14.2708,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 73
+  },
+  {
+   "t": 14.3594,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 14.375,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 84
+  },
+  {
+   "t": 14.4635,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 14.4791,
+   "type": "acid",
+   "channel": 0,
+   "note": 82,
+   "velocity": 73
+  },
+  {
+   "t": 14.5677,
+   "type": "note_off",
+   "channel": 0,
+   "note": 82
+  },
+  {
+   "t": 14.5833,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 94
+  },
+  {
+   "t": 14.6719,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 14.6875,
+   "type": "acid",
+   "channel": 0,
+   "note": 81,
+   "velocity": 70
+  },
+  {
+   "t": 14.776,
+   "type": "note_off",
+   "channel": 0,
+   "note": 81
+  },
+  {
+   "t": 14.7916,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 84
+  },
+  {
+   "t": 14.8802,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 14.8958,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 70
+  },
+  {
+   "t": 14.9844,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 15.0,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 90
+  },
+  {
+   "t": 15.0885,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 15.1041,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 72
+  },
+  {
+   "t": 15.1927,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 15.2083,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 70
+  },
+  {
+   "t": 15.2969,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 15.3125,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 86
+  },
+  {
+   "t": 15.401,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 15.4166,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 89
+  },
+  {
+   "t": 15.5052,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 15.5208,
+   "type": "acid",
+   "channel": 0,
+   "note": 81,
+   "velocity": 81
+  },
+  {
+   "t": 15.6094,
+   "type": "note_off",
+   "channel": 0,
+   "note": 81
+  },
+  {
+   "t": 15.625,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 75
+  },
+  {
+   "t": 15.7135,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 15.7291,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 72
+  },
+  {
+   "t": 15.8177,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 15.8333,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 89
+  },
+  {
+   "t": 15.9218,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 15.9375,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 75
+  },
+  {
+   "t": 16.026,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 16.0416,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 82
+  },
+  {
+   "t": 16.1302,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 16.1458,
+   "type": "acid",
+   "channel": 0,
+   "note": 82,
+   "velocity": 78
+  },
+  {
+   "t": 16.2343,
+   "type": "note_off",
+   "channel": 0,
+   "note": 82
+  },
+  {
+   "t": 16.25,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 95
+  },
+  {
+   "t": 16.3385,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 16.3541,
+   "type": "acid",
+   "channel": 0,
+   "note": 81,
+   "velocity": 71
+  },
+  {
+   "t": 16.4427,
+   "type": "note_off",
+   "channel": 0,
+   "note": 81
+  },
+  {
+   "t": 16.4583,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 75
+  },
+  {
+   "t": 16.5468,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 16.5625,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 76
+  },
+  {
+   "t": 16.651,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 16.6666,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 90
+  },
+  {
+   "t": 16.7552,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 16.7708,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 72
+  },
+  {
+   "t": 16.8593,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 16.875,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 75
+  },
+  {
+   "t": 16.9635,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 16.9791,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 84
+  },
+  {
+   "t": 17.0677,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 17.0833,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 93
+  },
+  {
+   "t": 17.1718,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 17.1875,
+   "type": "acid",
+   "channel": 0,
+   "note": 81,
+   "velocity": 70
+  },
+  {
+   "t": 17.276,
+   "type": "note_off",
+   "channel": 0,
+   "note": 81
+  },
+  {
+   "t": 17.2916,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 75
+  },
+  {
+   "t": 17.3802,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 17.3958,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 80
+  },
+  {
+   "t": 17.4843,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 17.5,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 90
+  },
+  {
+   "t": 17.5885,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 17.6041,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 82
+  },
+  {
+   "t": 17.6927,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 17.7083,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 76
+  },
+  {
+   "t": 17.7968,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 17.8125,
+   "type": "acid",
+   "channel": 0,
+   "note": 82,
+   "velocity": 71
+  },
+  {
+   "t": 17.901,
+   "type": "note_off",
+   "channel": 0,
+   "note": 82
+  },
+  {
+   "t": 17.9166,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 89
+  },
+  {
+   "t": 18.0052,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 18.0208,
+   "type": "acid",
+   "channel": 0,
+   "note": 81,
+   "velocity": 75
+  },
+  {
+   "t": 18.1093,
+   "type": "note_off",
+   "channel": 0,
+   "note": 81
+  },
+  {
+   "t": 18.125,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 76
+  },
+  {
+   "t": 18.2135,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 18.2291,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 75
+  },
+  {
+   "t": 18.3177,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 18.3333,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 93
+  },
+  {
+   "t": 18.4218,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 18.4375,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 75
+  },
+  {
+   "t": 18.526,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 18.5416,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 84
+  },
+  {
+   "t": 18.6302,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 18.6458,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 71
+  },
+  {
+   "t": 18.7343,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 18.75,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 99
+  },
+  {
+   "t": 18.8385,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 18.8541,
+   "type": "acid",
+   "channel": 0,
+   "note": 81,
+   "velocity": 71
+  },
+  {
+   "t": 18.9427,
+   "type": "note_off",
+   "channel": 0,
+   "note": 81
+  },
+  {
+   "t": 18.9583,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 76
+  },
+  {
+   "t": 19.0468,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 19.0625,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 70
+  },
+  {
+   "t": 19.151,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 19.1666,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 96
+  },
+  {
+   "t": 19.2552,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 19.2708,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 70
+  },
+  {
+   "t": 19.3593,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 19.375,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 80
+  },
+  {
+   "t": 19.4635,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 19.4791,
+   "type": "acid",
+   "channel": 0,
+   "note": 82,
+   "velocity": 73
+  },
+  {
+   "t": 19.5677,
+   "type": "note_off",
+   "channel": 0,
+   "note": 82
+  },
+  {
+   "t": 19.5833,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 104
+  },
+  {
+   "t": 19.6718,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 19.6875,
+   "type": "acid",
+   "channel": 0,
+   "note": 81,
+   "velocity": 81
+  },
+  {
+   "t": 19.776,
+   "type": "note_off",
+   "channel": 0,
+   "note": 81
+  },
+  {
+   "t": 19.7916,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 85
+  },
+  {
+   "t": 19.8802,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 19.8958,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 74
+  },
+  {
+   "t": 19.9458,
+   "type": "silence",
+   "duration": 3.3375
+  },
+  {
+   "t": 19.9843,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 23.3333,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 89
+  },
+  {
+   "t": 23.4218,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 23.4375,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 76
+  },
+  {
+   "t": 23.526,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 23.5416,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 78
+  },
+  {
+   "t": 23.6302,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 23.6458,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 71
+  },
+  {
+   "t": 23.7343,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 23.75,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 94
+  },
+  {
+   "t": 23.8385,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 23.8541,
+   "type": "acid",
+   "channel": 0,
+   "note": 81,
+   "velocity": 77
+  },
+  {
+   "t": 23.9427,
+   "type": "note_off",
+   "channel": 0,
+   "note": 81
+  },
+  {
+   "t": 23.9583,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 85
+  },
+  {
+   "t": 24.0468,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 24.0625,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 76
+  },
+  {
+   "t": 24.151,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 24.1666,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 89
+  },
+  {
+   "t": 24.2552,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 24.2708,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 73
+  },
+  {
+   "t": 24.3593,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 24.375,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 86
+  },
+  {
+   "t": 24.4635,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 24.4791,
+   "type": "acid",
+   "channel": 0,
+   "note": 82,
+   "velocity": 70
+  },
+  {
+   "t": 24.5677,
+   "type": "note_off",
+   "channel": 0,
+   "note": 82
+  },
+  {
+   "t": 24.5833,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 95
+  },
+  {
+   "t": 24.6718,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 24.6875,
+   "type": "acid",
+   "channel": 0,
+   "note": 81,
+   "velocity": 71
+  },
+  {
+   "t": 24.776,
+   "type": "note_off",
+   "channel": 0,
+   "note": 81
+  },
+  {
+   "t": 24.7916,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 79
+  },
+  {
+   "t": 24.8802,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 24.8958,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 86
+  },
+  {
+   "t": 24.9843,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 25.0,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 91
+  },
+  {
+   "t": 25.0885,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 25.1041,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 77
+  },
+  {
+   "t": 25.1927,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 25.2083,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 78
+  },
+  {
+   "t": 25.2968,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 25.3125,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 70
+  },
+  {
+   "t": 25.401,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 25.4166,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 104
+  },
+  {
+   "t": 25.5052,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 25.5208,
+   "type": "acid",
+   "channel": 0,
+   "note": 81,
+   "velocity": 76
+  },
+  {
+   "t": 25.6093,
+   "type": "note_off",
+   "channel": 0,
+   "note": 81
+  },
+  {
+   "t": 25.625,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 86
+  },
+  {
+   "t": 25.7135,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 25.7291,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 83
+  },
+  {
+   "t": 25.8177,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 25.8333,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 88
+  },
+  {
+   "t": 25.9218,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 25.9375,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 83
+  },
+  {
+   "t": 26.026,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 26.0416,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 70
+  },
+  {
+   "t": 26.1302,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 26.1458,
+   "type": "acid",
+   "channel": 0,
+   "note": 82,
+   "velocity": 86
+  },
+  {
+   "t": 26.2343,
+   "type": "note_off",
+   "channel": 0,
+   "note": 82
+  },
+  {
+   "t": 26.25,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 93
+  },
+  {
+   "t": 26.3385,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 26.3541,
+   "type": "acid",
+   "channel": 0,
+   "note": 81,
+   "velocity": 82
+  },
+  {
+   "t": 26.4427,
+   "type": "note_off",
+   "channel": 0,
+   "note": 81
+  },
+  {
+   "t": 26.4583,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 81
+  },
+  {
+   "t": 26.5468,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 26.5625,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 80
+  },
+  {
+   "t": 26.651,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 26.6666,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 104
+  },
+  {
+   "t": 26.7552,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 26.875,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 83
+  },
+  {
+   "t": 26.9635,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 27.0833,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 100
+  },
+  {
+   "t": 27.1718,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 27.1875,
+   "type": "acid",
+   "channel": 0,
+   "note": 81,
+   "velocity": 70
+  },
+  {
+   "t": 27.276,
+   "type": "note_off",
+   "channel": 0,
+   "note": 81
+  },
+  {
+   "t": 27.2916,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 80
+  },
+  {
+   "t": 27.3802,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 27.5,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 90
+  },
+  {
+   "t": 27.5885,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 27.6041,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 77
+  },
+  {
+   "t": 27.6927,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 27.7083,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 84
+  },
+  {
+   "t": 27.7968,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 27.8125,
+   "type": "acid",
+   "channel": 0,
+   "note": 82,
+   "velocity": 75
+  },
+  {
+   "t": 27.901,
+   "type": "note_off",
+   "channel": 0,
+   "note": 82
+  },
+  {
+   "t": 27.9166,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 89
+  },
+  {
+   "t": 28.0052,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 28.0208,
+   "type": "acid",
+   "channel": 0,
+   "note": 81,
+   "velocity": 74
+  },
+  {
+   "t": 28.1093,
+   "type": "note_off",
+   "channel": 0,
+   "note": 81
+  },
+  {
+   "t": 28.125,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 79
+  },
+  {
+   "t": 28.2135,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 28.2291,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 78
+  },
+  {
+   "t": 28.3177,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 28.3333,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 99
+  },
+  {
+   "t": 28.4218,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 28.4375,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 71
+  },
+  {
+   "t": 28.526,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 28.6458,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 74
+  },
+  {
+   "t": 28.7343,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 28.75,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 92
+  },
+  {
+   "t": 28.8385,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 28.8541,
+   "type": "acid",
+   "channel": 0,
+   "note": 81,
+   "velocity": 83
+  },
+  {
+   "t": 28.9427,
+   "type": "note_off",
+   "channel": 0,
+   "note": 81
+  },
+  {
+   "t": 28.9583,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 75
+  },
+  {
+   "t": 29.0468,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 29.0625,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 78
+  },
+  {
+   "t": 29.151,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 29.2708,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 75
+  },
+  {
+   "t": 29.3593,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 29.375,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 80
+  },
+  {
+   "t": 29.4635,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 29.5833,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 98
+  },
+  {
+   "t": 29.6718,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 29.8958,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 84
+  },
+  {
+   "t": 29.9843,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 30.0,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 100
+  },
+  {
+   "t": 30.0885,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 30.2083,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 70
+  },
+  {
+   "t": 30.2968,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 30.4166,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 96
+  },
+  {
+   "t": 30.5052,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 30.5208,
+   "type": "acid",
+   "channel": 0,
+   "note": 81,
+   "velocity": 82
+  },
+  {
+   "t": 30.6093,
+   "type": "note_off",
+   "channel": 0,
+   "note": 81
+  },
+  {
+   "t": 30.7291,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 70
+  },
+  {
+   "t": 30.8177,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  },
+  {
+   "t": 30.8333,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 89
+  },
+  {
+   "t": 30.9218,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 31.2499,
+   "type": "acid",
+   "channel": 0,
+   "note": 74,
+   "velocity": 97
+  },
+  {
+   "t": 31.3385,
+   "type": "note_off",
+   "channel": 0,
+   "note": 74
+  },
+  {
+   "t": 31.3541,
+   "type": "acid",
+   "channel": 0,
+   "note": 81,
+   "velocity": 86
+  },
+  {
+   "t": 31.4427,
+   "type": "note_off",
+   "channel": 0,
+   "note": 81
+  },
+  {
+   "t": 31.6666,
+   "type": "acid",
+   "channel": 0,
+   "note": 69,
+   "velocity": 97
+  },
+  {
+   "t": 31.7166,
+   "type": "silence",
+   "duration": 0.525
+  },
+  {
+   "t": 31.7552,
+   "type": "note_off",
+   "channel": 0,
+   "note": 69
+  },
+  {
+   "t": 32.2916,
+   "type": "acid",
+   "channel": 0,
+   "note": 72,
+   "velocity": 70
+  },
+  {
+   "t": 32.3802,
+   "type": "note_off",
+   "channel": 0,
+   "note": 72
+  },
+  {
+   "t": 32.3958,
+   "type": "acid",
+   "channel": 0,
+   "note": 77,
+   "velocity": 80
+  },
+  {
+   "t": 32.4843,
+   "type": "note_off",
+   "channel": 0,
+   "note": 77
+  }
+ ]
+}
